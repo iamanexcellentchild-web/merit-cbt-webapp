@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>{{ subject.title() }} Quiz Result</h2>
+{% if name %}
+    <p>Student: {{ name }}</p>
+{% endif %}
+<p>Your score: {{ score }} / {{ total }}{% if percentage is defined %} ({{ percentage }}%){% endif %}</p>
+{% if details %}
+    <h3>Review your answers</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Question</th>
+                <th>Your answer</th>
+                <th>Correct answer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in details %}
+            <tr class="{{ 'correct' if item.correct else 'incorrect' }}">
+                <td>{{ loop.index }}</td>
+                <td>{{ item.question }}</td>
+                <td>{{ item.selected or '(no answer)' }}</td>
+                <td>{{ item.answer }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endif %}
+<p><a href="{{ url_for('quiz', subject=subject) }}">Try again</a> | <a href="{{ url_for('index') }}">Choose another subject</a></p>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>{{ subject.title() }} Quiz</h2>
+<p>This quiz contains {{ questions|length }} question{{ '' if questions|length == 1 else 's' }} (maximum 60).</p>
+<form method="post">
+    <input type="hidden" name="indices" value='{{ indices|tojson }}'>
+    <p>Logged in as <strong>{{ session.get('username') }}</strong>.</p>
+    {% for q in questions %}
+        {% set qidx = loop.index0 %}
+        <div class="question">
+            <p>{{ loop.index }}. {{ q.q }}</p>
+            {% for opt in q.options %}
+                <label>
+                    <input type="radio" name="q{{ qidx }}" value="{{ opt }}">
+                    {{ opt }}
+                </label><br>
+            {% endfor %}
+        </div>
+    {% endfor %}
+    <button type="submit">Submit</button>
+</form>
+<p><a href="{{ url_for('index') }}">Back to subjects</a></p>
+{% if expires_at %}
+    <p><em>Session expires at {{ expires_at | datetimeformat }}</em></p>
+{% endif %}
+{% endblock %}

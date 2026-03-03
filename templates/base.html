@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title if title else "Student Quiz App" }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+                <h1>Student Test & Quiz App</h1>
+                <nav>
+                        {% if session.get('username') %}
+                                <span>Welcome, {{ session.get('username') }}!</span>
+                                <a href="{{ url_for('history') }}">My History</a>
+                                <a href="{{ url_for('logout') }}">Logout</a>
+                        {% else %}
+                                <a href="{{ url_for('login') }}">Login</a>
+                        {% endif %}
+                        <span id="timer" style="margin-left:20px;color:crimson"></span>
+                </nav>
+    </header>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class="flashes">
+                    {% for m in messages %}
+                        <li>{{ m }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2026 Student Quiz App</p>
+    </footer>
+        <script>
+        // Global countdown script. Pages should define window.EXPIRES_AT as an ISO timestamp when relevant.
+        function startCountdown(expiresAt) {
+            if (!expiresAt) return;
+            function update() {
+                var now = new Date();
+                var exp = new Date(expiresAt);
+                var diff = exp - now;
+                var el = document.getElementById('timer');
+                if (!el) return;
+                if (diff <= 0) {
+                    el.textContent = 'Time expired';
+                } else {
+                    var mins = Math.floor(diff / 60000);
+                    var secs = Math.floor((diff % 60000) / 1000);
+                    el.textContent = 'Time left: ' + mins + 'm ' + (secs<10?('0'+secs):secs) + 's';
+                }
+            }
+            update();
+            setInterval(update, 1000);
+        }
+        if (window.EXPIRES_AT) startCountdown(window.EXPIRES_AT);
+        </script>
+</body>
+</html>

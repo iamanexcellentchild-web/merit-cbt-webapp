@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Choose a subject</h2>
+{% if session.get('username') %}
+    <p>Logged in as <strong>{{ session.get('username') }}</strong>. {% if expires_display %}Your session expires at <em>{{ expires_display }}</em>.{% endif %} Each quiz will contain up to 60 questions.</p>
+{% else %}
+    <p><a href="{{ url_for('login') }}">Log in</a> to begin and get your personalized question sets of up to 60 questions each.</p>
+{% endif %}
+<ul>
+    {% for sub in subjects %}
+        <li><a href="{{ url_for('quiz', subject=sub) }}">{{ sub.title() }}</a></li>
+    {% endfor %}
+</ul>
+<p><a href="{{ url_for('grades') }}">View all submitted results</a></p>
+{% endblock %}
