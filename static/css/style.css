@@ -11,7 +11,20 @@ header, footer {
     text-align: center;
     padding: 1em 0;
 }
+/* This forces MathJax containers to align with your text properly */
+.question-text, .option-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+}
 
+mjx-container {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 main {
     padding: 2em;
 }
@@ -22,7 +35,7 @@ main {
 
 button {
     background: #007bff;
-    color: #fff;
+    color: #c51717;
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;

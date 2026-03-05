@@ -1051,5 +1051,5129 @@
       }
     ],
     "timestamp": "2026-03-03T17:19:58.978498"
+  },
+  {
+    "name": "Atode Excellence",
+    "subject": "gst",
+    "score": 10,
+    "total": 60,
+    "percentage": 16.67,
+    "indices": [
+      63,
+      27,
+      106,
+      126,
+      53,
+      44,
+      105,
+      19,
+      80,
+      78,
+      117,
+      121,
+      74,
+      33,
+      52,
+      59,
+      111,
+      130,
+      132,
+      96,
+      109,
+      17,
+      64,
+      91,
+      56,
+      20,
+      134,
+      39,
+      120,
+      62,
+      90,
+      69,
+      4,
+      131,
+      60,
+      99,
+      113,
+      86,
+      98,
+      55,
+      101,
+      123,
+      133,
+      97,
+      50,
+      95,
+      81,
+      21,
+      139,
+      107,
+      93,
+      124,
+      10,
+      84,
+      89,
+      77,
+      12,
+      32,
+      114,
+      42
+    ],
+    "answers": [
+      "Topic sentence",
+      "Against",
+      "Phrase search",
+      "Technology",
+      "Annotated notes",
+      "Specific information",
+      "Wild card",
+      "One independent clause and one or more dependent clauses",
+      "Encyclopaedia",
+      "Data",
+      "All of the above",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "details": [
+      {
+        "question": "The thesis statement is to an essay what the _______ is to a paragraph.",
+        "options": [
+          "Topic sentence",
+          "Conclusion",
+          "Transition",
+          "Hook"
+        ],
+        "selected": "Topic sentence",
+        "answer": "Topic sentence",
+        "correct": true
+      },
+      {
+        "question": "As a prefix, ANTI- means:",
+        "options": [
+          "Before",
+          "Against",
+          "After",
+          "Without"
+        ],
+        "selected": "Against",
+        "answer": "Against",
+        "correct": true
+      },
+      {
+        "question": "When keywords are embedded in quotes, the type of search is:",
+        "options": [
+          "Subject search",
+          "Title search",
+          "Keyword search",
+          "Phrase search"
+        ],
+        "selected": "Phrase search",
+        "answer": "Phrase search",
+        "correct": true
+      },
+      {
+        "question": "Letter T is assigned to books on _______ in the Library of Congress Classification Scheme.",
+        "options": [
+          "Medicine",
+          "Science",
+          "Technology",
+          "Arts"
+        ],
+        "selected": "Technology",
+        "answer": "Technology",
+        "correct": true
+      },
+      {
+        "question": "In reviewing an item you have read, one of the following is not necessary:",
+        "options": [
+          "Headings",
+          "References",
+          "Annotated notes",
+          "Highlighted sections"
+        ],
+        "selected": "Annotated notes",
+        "answer": "References",
+        "correct": false
+      },
+      {
+        "question": "In scanning, the reader seeks to:",
+        "options": [
+          "Main idea",
+          "Inference",
+          "Theme",
+          "Specific information"
+        ],
+        "selected": "Specific information",
+        "answer": "Specific information",
+        "correct": true
+      },
+      {
+        "question": "The asterisk sign (*) in a search is known as:",
+        "options": [
+          "Hash tag",
+          "Truncation mark",
+          "Colon",
+          "Wild card"
+        ],
+        "selected": "Wild card",
+        "answer": "Wild card",
+        "correct": true
+      },
+      {
+        "question": "A complex sentence has:",
+        "options": [
+          "Two independent clauses",
+          "No clause",
+          "One clause",
+          "One independent clause and one or more dependent clauses"
+        ],
+        "selected": "One independent clause and one or more dependent clauses",
+        "answer": "One independent clause and one or more dependent clauses",
+        "correct": true
+      },
+      {
+        "question": "The suitable reference source for background and current information on any field is:",
+        "options": [
+          "Dictionary",
+          "Encyclopaedia",
+          "Atlas",
+          "Manual"
+        ],
+        "selected": "Encyclopaedia",
+        "answer": "Encyclopaedia",
+        "correct": true
+      },
+      {
+        "question": "............. is the plural of datum.",
+        "options": [
+          "Datas",
+          "Datums",
+          "Datae",
+          "Data"
+        ],
+        "selected": "Data",
+        "answer": "Data",
+        "correct": true
+      },
+      {
+        "question": "Biographical sources provide individual information such as:",
+        "options": [
+          "Date of birth only",
+          "Career achievements only",
+          "Place of birth only",
+          "All of the above"
+        ],
+        "selected": "All of the above",
+        "answer": "All of the above",
+        "correct": true
+      },
+      {
+        "question": "An ............. is a summary of a publication or article.",
+        "options": [
+          "Index",
+          "Abstract",
+          "Catalogue",
+          "Glossary"
+        ],
+        "selected": null,
+        "answer": "Abstract",
+        "correct": false
+      },
+      {
+        "question": "Note-taking complements:",
+        "options": [
+          "Reading",
+          "Writing",
+          "Speaking",
+          "Listening"
+        ],
+        "selected": null,
+        "answer": "Listening",
+        "correct": false
+      },
+      {
+        "question": "The label 'bilabial glide' refers to:",
+        "options": [
+          "/j/",
+          "/l/",
+          "/w/",
+          "/h/"
+        ],
+        "selected": null,
+        "answer": "/w/",
+        "correct": false
+      },
+      {
+        "question": "3R stands for:",
+        "options": [
+          "Read, Repeat, Review",
+          "Review, Recall, Recite",
+          "Read, Recall, Review",
+          "Read, Recite, Respond"
+        ],
+        "selected": null,
+        "answer": "Read, Recall, Review",
+        "correct": false
+      },
+      {
+        "question": "A _______ essay gives a detailed and often dispassionate account of people, incidents, scenes and situations.",
+        "options": [
+          "Argumentative",
+          "Descriptive",
+          "Narrative",
+          "Expository"
+        ],
+        "selected": null,
+        "answer": "Descriptive",
+        "correct": false
+      },
+      {
+        "question": "Students can search the manual library catalogue using:",
+        "options": [
+          "Author/title & subject",
+          "Language only",
+          "Publisher only",
+          "ISBN only"
+        ],
+        "selected": null,
+        "answer": "Author/title & subject",
+        "correct": false
+      },
+      {
+        "question": "Arrangement in the library catalogue is in _______ order.",
+        "options": [
+          "Numerical",
+          "Chronological",
+          "Random",
+          "Alphabetical"
+        ],
+        "selected": null,
+        "answer": "Alphabetical",
+        "correct": false
+      },
+      {
+        "question": "Radio, tape-recorder, gramophone, and audio cassette player are examples of:",
+        "options": [
+          "Audio materials",
+          "Visual materials",
+          "Print materials",
+          "Digital books"
+        ],
+        "selected": null,
+        "answer": "Audio materials",
+        "correct": false
+      },
+      {
+        "question": "When results are too broad, the way out is to:",
+        "options": [
+          "Stop searching",
+          "Use fewer words",
+          "Change your search strategy",
+          "Ignore results"
+        ],
+        "selected": null,
+        "answer": "Change your search strategy",
+        "correct": false
+      },
+      {
+        "question": "Advanced search allows you to limit your searches by:",
+        "options": [
+          "Author only",
+          "Title only",
+          "Publisher only",
+          "Year of publication"
+        ],
+        "selected": null,
+        "answer": "Year of publication",
+        "correct": false
+      },
+      {
+        "question": "Declarative sentences end with a:",
+        "options": [
+          "Comma",
+          "Colon",
+          "Question mark",
+          "Period"
+        ],
+        "selected": null,
+        "answer": "Period",
+        "correct": false
+      },
+      {
+        "question": "Unity in a paragraph suggests:",
+        "options": [
+          "Length",
+          "Complexity",
+          "Variety",
+          "Singularity of focus"
+        ],
+        "selected": null,
+        "answer": "Singularity of focus",
+        "correct": false
+      },
+      {
+        "question": "Information can be evaluated using the following criteria EXCEPT:",
+        "options": [
+          "Authority",
+          "Size",
+          "Currency",
+          "Accuracy"
+        ],
+        "selected": null,
+        "answer": "Size",
+        "correct": false
+      },
+      {
+        "question": "When our eyes make a backward movement during reading, it is known as:",
+        "options": [
+          "Fixation",
+          "Scanning",
+          "Skipping",
+          "Regression"
+        ],
+        "selected": null,
+        "answer": "Regression",
+        "correct": false
+      },
+      {
+        "question": "There are how many basic clause patterns in the English simple sentence?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "selected": null,
+        "answer": "7",
+        "correct": false
+      },
+      {
+        "question": "Information can be in the form of:",
+        "options": [
+          "Texts only",
+          "Numbers only",
+          "Graphs only",
+          "All of the above"
+        ],
+        "selected": null,
+        "answer": "All of the above",
+        "correct": false
+      },
+      {
+        "question": "Two models of spelling popular in English are:",
+        "options": [
+          "Formal and informal",
+          "Old and modern",
+          "British and American",
+          "Classical and modern"
+        ],
+        "selected": null,
+        "answer": "British and American",
+        "correct": false
+      },
+      {
+        "question": "Yearbooks are also known as:",
+        "options": [
+          "Diaries",
+          "Annual",
+          "Biographies",
+          "Abstracts"
+        ],
+        "selected": null,
+        "answer": "Annual",
+        "correct": false
+      },
+      {
+        "question": "A/an _______ paragraph explains how or why something happens.",
+        "options": [
+          "Explanation",
+          "Sequence",
+          "Narrative",
+          "Argument"
+        ],
+        "selected": null,
+        "answer": "Explanation",
+        "correct": false
+      },
+      {
+        "question": "One of the attributes of information is:",
+        "options": [
+          "Length",
+          "Relevance",
+          "Size",
+          "Color"
+        ],
+        "selected": null,
+        "answer": "Relevance",
+        "correct": false
+      },
+      {
+        "question": "............. is referred to as the meat of the essay.",
+        "options": [
+          "Organisation",
+          "Expression",
+          "Content",
+          "Mechanics"
+        ],
+        "selected": null,
+        "answer": "Content",
+        "correct": false
+      },
+      {
+        "question": "Which clause pattern is reflected in: 'The tribunal conducted the hearing behind closed doors'?",
+        "options": [
+          "SVC",
+          "SVO",
+          "SVOA",
+          "SVOC"
+        ],
+        "selected": null,
+        "answer": "SVOA",
+        "correct": false
+      },
+      {
+        "question": "Electronic journals, electronic images, library software, CD-ROMs are:",
+        "options": [
+          "Print resources",
+          "Non-print resources",
+          "Reference books",
+          "Manual resources"
+        ],
+        "selected": null,
+        "answer": "Non-print resources",
+        "correct": false
+      },
+      {
+        "question": "The _______ essay emphasizes character and setting.",
+        "options": [
+          "Descriptive",
+          "Analytical",
+          "Narrative",
+          "Persuasive"
+        ],
+        "selected": null,
+        "answer": "Narrative",
+        "correct": false
+      },
+      {
+        "question": "The Boolean operator OR is used to:",
+        "options": [
+          "Narrow search",
+          "Exclude terms",
+          "Connect synonyms",
+          "End search"
+        ],
+        "selected": null,
+        "answer": "Connect synonyms",
+        "correct": false
+      },
+      {
+        "question": "Reference materials include the following EXCEPT:",
+        "options": [
+          "Dictionaries",
+          "Journals",
+          "Encyclopaedias",
+          "Handbooks"
+        ],
+        "selected": null,
+        "answer": "Journals",
+        "correct": false
+      },
+      {
+        "question": "Copyrighted works are protected by:",
+        "options": [
+          "Law",
+          "Publisher",
+          "Author",
+          "Library"
+        ],
+        "selected": null,
+        "answer": "Law",
+        "correct": false
+      },
+      {
+        "question": "Boolean operators are:",
+        "options": [
+          "IF, THEN, ELSE",
+          "AND, OR, NOT",
+          "IN, ON, AT",
+          "FOR, WITH, BY"
+        ],
+        "selected": null,
+        "answer": "AND, OR, NOT",
+        "correct": false
+      },
+      {
+        "question": "The movement of the eyes in reading can be described as:",
+        "options": [
+          "Saccadic",
+          "Linear",
+          "Circular",
+          "Vertical"
+        ],
+        "selected": null,
+        "answer": "Saccadic",
+        "correct": false
+      },
+      {
+        "question": "The 'NOT' operator is used to:",
+        "options": [
+          "Broaden search",
+          "Exclude & narrow search",
+          "Connect synonyms",
+          "Sort results"
+        ],
+        "selected": null,
+        "answer": "Exclude & narrow search",
+        "correct": false
+      },
+      {
+        "question": "Secondary source is more reliable than primary source:",
+        "options": [
+          "True",
+          "Sometimes",
+          "Often",
+          "False"
+        ],
+        "selected": null,
+        "answer": "False",
+        "correct": false
+      },
+      {
+        "question": "The person who provides reference services is called:",
+        "options": [
+          "Archivist",
+          "Reference Librarian",
+          "Publisher",
+          "Editor"
+        ],
+        "selected": null,
+        "answer": "Reference Librarian",
+        "correct": false
+      },
+      {
+        "question": "When there are too few sources, one can:",
+        "options": [
+          "Combine synonymous terms with the OR Boolean operator",
+          "Delete keywords",
+          "Stop searching",
+          "Use NOT operator"
+        ],
+        "selected": null,
+        "answer": "Combine synonymous terms with the OR Boolean operator",
+        "correct": false
+      },
+      {
+        "question": "Which of the following is NOT a standard reading technique?",
+        "options": [
+          "3RQS",
+          "SQ3R",
+          "PQRST",
+          "3S3R"
+        ],
+        "selected": null,
+        "answer": "3RQS",
+        "correct": false
+      },
+      {
+        "question": "One of the major benefits of using library databases is:",
+        "options": [
+          "Free internet access",
+          "Social networking",
+          "Entertainment materials",
+          "They are subscribed to by the library to support students' assignments and research"
+        ],
+        "selected": null,
+        "answer": "They are subscribed to by the library to support students' assignments and research",
+        "correct": false
+      },
+      {
+        "question": "The acronym 'OPAC' means:",
+        "options": [
+          "Online Public Access Catalogue",
+          "Open Public Academic Centre",
+          "Official Public Archive Catalogue",
+          "Online Private Access Collection"
+        ],
+        "selected": null,
+        "answer": "Online Public Access Catalogue",
+        "correct": false
+      },
+      {
+        "question": "Which one of the following is a simple sentence?",
+        "options": [
+          "The boy killed the snake and ran away.",
+          "Although he came, he left early.",
+          "The boy killed the snake.",
+          "When he arrived, we left."
+        ],
+        "selected": null,
+        "answer": "The boy killed the snake.",
+        "correct": false
+      },
+      {
+        "question": "An ellipsis is a series of:",
+        "options": [
+          "Two periods",
+          "Four periods",
+          "Three periods",
+          "Five periods"
+        ],
+        "selected": null,
+        "answer": "Three periods",
+        "correct": false
+      },
+      {
+        "question": "............. is done to reduce items retrieved in advanced search.",
+        "options": [
+          "Sorting",
+          "Browsing",
+          "Scanning",
+          "Filtering"
+        ],
+        "selected": null,
+        "answer": "Filtering",
+        "correct": false
+      },
+      {
+        "question": "The ability to recognize when information is needed is called:",
+        "options": [
+          "Data awareness",
+          "Library skills",
+          "Information literacy",
+          "Search competence"
+        ],
+        "selected": null,
+        "answer": "Information literacy",
+        "correct": false
+      },
+      {
+        "question": "Libraries perform all of these functions EXCEPT:",
+        "options": [
+          "Acquisition",
+          "Book selling",
+          "Organization",
+          "Preservation"
+        ],
+        "selected": null,
+        "answer": "Book selling",
+        "correct": false
+      },
+      {
+        "question": "The study of the arrangement of constituents within a sentence is called:",
+        "options": [
+          "Syntax",
+          "Morphology",
+          "Phonology",
+          "Semantics"
+        ],
+        "selected": null,
+        "answer": "Syntax",
+        "correct": false
+      },
+      {
+        "question": "............. collections are not expected to be read from cover to cover.",
+        "options": [
+          "Serial",
+          "Journal",
+          "Textbook",
+          "Reference"
+        ],
+        "selected": null,
+        "answer": "Reference",
+        "correct": false
+      },
+      {
+        "question": "A quote is used in research write-up to:",
+        "options": [
+          "Lengthen the essay",
+          "Summarize",
+          "Criticize",
+          "Support an argument"
+        ],
+        "selected": null,
+        "answer": "Support an argument",
+        "correct": false
+      },
+      {
+        "question": "A group of words that behave like a single word with a single meaning is known as:",
+        "options": [
+          "Idiom",
+          "Phrase",
+          "Clause",
+          "Collocation"
+        ],
+        "selected": null,
+        "answer": "Collocation",
+        "correct": false
+      },
+      {
+        "question": "Grammatical hierarchy in English is structured as:",
+        "options": [
+          "Word, phrase, clause, sentence",
+          "Morpheme, word, phrase, clause and sentence",
+          "Phrase, word, clause, sentence",
+          "Sentence, clause, phrase, word"
+        ],
+        "selected": null,
+        "answer": "Morpheme, word, phrase, clause and sentence",
+        "correct": false
+      },
+      {
+        "question": "Another name for the soft palate is the:",
+        "options": [
+          "Alveolar ridge",
+          "Velum",
+          "Larynx",
+          "Pharynx"
+        ],
+        "selected": null,
+        "answer": "Velum",
+        "correct": false
+      },
+      {
+        "question": "Notable reference collection includes all of these EXCEPT:",
+        "options": [
+          "Encyclopaedias",
+          "Dictionaries",
+          "Books",
+          "Almanacs"
+        ],
+        "selected": null,
+        "answer": "Books",
+        "correct": false
+      },
+      {
+        "question": "The first step in reading a passage is to _______ it.",
+        "options": [
+          "Scan",
+          "Read deeply",
+          "Preview",
+          "Summarize"
+        ],
+        "selected": null,
+        "answer": "Preview",
+        "correct": false
+      }
+    ],
+    "timestamp": "2026-03-03T17:43:45.083113"
+  },
+  {
+    "name": "Atode Excellence",
+    "subject": "gst",
+    "score": 52,
+    "total": 60,
+    "percentage": 86.67,
+    "indices": [
+      354,
+      112,
+      145,
+      52,
+      131,
+      242,
+      56,
+      31,
+      384,
+      146,
+      322,
+      374,
+      150,
+      161,
+      305,
+      47,
+      19,
+      195,
+      216,
+      227,
+      33,
+      250,
+      2,
+      5,
+      365,
+      71,
+      189,
+      96,
+      174,
+      307,
+      218,
+      321,
+      191,
+      66,
+      367,
+      376,
+      73,
+      24,
+      124,
+      293,
+      10,
+      176,
+      90,
+      137,
+      46,
+      286,
+      9,
+      27,
+      359,
+      178,
+      171,
+      104,
+      244,
+      224,
+      41,
+      284,
+      363,
+      134,
+      79,
+      349
+    ],
+    "answers": [
+      "2",
+      "Coherence",
+      "Restricted",
+      "noun clause",
+      "Author/title & subject",
+      "Place",
+      "topic",
+      "sequence",
+      "A quarter",
+      "Clipping",
+      "Content",
+      "Define",
+      "Book of Quotations",
+      "Journals",
+      "Obtaining a general impression of the central idea",
+      "adverb of frequency",
+      "Village",
+      "Books",
+      "Avoiding the use of pronouns",
+      "Survey, Question, 3R",
+      "Reference section",
+      "Connotation",
+      "Attributive",
+      "Irrelevant",
+      "Copy from your previous assignment for a new one without acknowledgment",
+      "you use your own words",
+      "All",
+      "Filtering",
+      "One independent clause and one or more dependent clauses",
+      "Geographical source",
+      "Saccadic",
+      "Transitive",
+      "Academic purposes",
+      "quadriphthongs",
+      "3",
+      "Semantic",
+      "all of the above",
+      "Specialized dictionary",
+      "Abstract",
+      "The schwa",
+      "Shelf QA",
+      "Audio materials",
+      "Complimentary cards",
+      "/w/",
+      "False",
+      "Affix",
+      "LEARNER",
+      "All of the above",
+      "Sentence fragments",
+      "Either between or within paragraphs",
+      "Reference",
+      ".edu",
+      "Neutral",
+      "Prepositional phrase",
+      "Primary & Tertiary",
+      "Broaden",
+      "Providing a sequential or chronological account",
+      "True",
+      "All of the above",
+      "Dictionaries"
+    ],
+    "details": [
+      {
+        "question": "How many morphemes are in the word 'boyish'?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "1"
+        ],
+        "selected": "2",
+        "answer": "2",
+        "correct": true
+      },
+      {
+        "question": "The element which makes a paragraph easily understandable to the reader is __________.",
+        "options": [
+          "Unity",
+          "Coherence",
+          "Development",
+          "Completeness"
+        ],
+        "selected": "Coherence",
+        "answer": "Coherence",
+        "correct": true
+      },
+      {
+        "question": "Reserved collections in University of Lagos Library are run on __________ access system.",
+        "options": [
+          "Closed",
+          "Restricted",
+          "Open",
+          "Reserve"
+        ],
+        "selected": "Restricted",
+        "answer": "Closed",
+        "correct": false
+      },
+      {
+        "question": "Which of these clause types is not a subordinate clause?",
+        "options": [
+          "adverb clause",
+          "adjective clause",
+          "prepositional clause",
+          "noun clause"
+        ],
+        "selected": "noun clause",
+        "answer": "prepositional clause",
+        "correct": false
+      },
+      {
+        "question": "Students can search the manual library catalogue for information materials using __________.",
+        "options": [
+          "None",
+          "Author/series & subject",
+          "Author/title & keyword",
+          "Author/title & subject"
+        ],
+        "selected": "Author/title & subject",
+        "answer": "Author/title & subject",
+        "correct": true
+      },
+      {
+        "question": "/s/, /t/ and /n/ are related based on their _______ of articulation.",
+        "options": [
+          "Length",
+          "Place",
+          "Manner",
+          "Nature"
+        ],
+        "selected": "Place",
+        "answer": "Place",
+        "correct": true
+      },
+      {
+        "question": "The __________ sentence is the most important sentence in a paragraph.",
+        "options": [
+          "topic",
+          "concluding",
+          "first",
+          "last"
+        ],
+        "selected": "topic",
+        "answer": "topic",
+        "correct": true
+      },
+      {
+        "question": "A/An _________________ paragraph describes a series of events or a process in some sort of order.",
+        "options": [
+          "explanation",
+          "sequence",
+          "evaluation",
+          "descriptive"
+        ],
+        "selected": "sequence",
+        "answer": "sequence",
+        "correct": true
+      },
+      {
+        "question": "In speech production, __________ of the human body is involved.",
+        "options": [
+          "Three quarters",
+          "The whole",
+          "A quarter",
+          "Half"
+        ],
+        "selected": "A quarter",
+        "answer": "The whole",
+        "correct": false
+      },
+      {
+        "question": "The words facsimile, prep, gents, zoo, and ad are examples of which word-formation process?",
+        "options": [
+          "Acronym",
+          "Clipping",
+          "Conversion",
+          "Blend"
+        ],
+        "selected": "Clipping",
+        "answer": "Clipping",
+        "correct": true
+      },
+      {
+        "question": "__________ is referred to as the meat of the essay.",
+        "options": [
+          "Expression",
+          "Organization",
+          "Mechanics",
+          "Content"
+        ],
+        "selected": "Content",
+        "answer": "Content",
+        "correct": true
+      },
+      {
+        "question": "'And' is used as a Boolean operator when you want to ________ your search results.",
+        "options": [
+          "Widen",
+          "Define",
+          "Specify",
+          "Harvest"
+        ],
+        "selected": "Define",
+        "answer": "Specify",
+        "correct": false
+      },
+      {
+        "question": "__________ is consulted mostly by speech makers and writers.",
+        "options": [
+          "Book of Quotations",
+          "Manual",
+          "Biographical book",
+          "Book of reference"
+        ],
+        "selected": "Book of Quotations",
+        "answer": "Book of Quotations",
+        "correct": true
+      },
+      {
+        "question": "Publications conveying recent original research and observation are known as __________.",
+        "options": [
+          "Translations",
+          "Journals",
+          "Tables",
+          "Textbooks"
+        ],
+        "selected": "Journals",
+        "answer": "Journals",
+        "correct": true
+      },
+      {
+        "question": "The first reading of a passage is often targeted at:",
+        "options": [
+          "Isolating direct points from indirect ones",
+          "Isolating subjective points from objective ones",
+          "Obtaining a general impression of the central idea",
+          "Isolating the main ideas from the minor ones"
+        ],
+        "selected": "Obtaining a general impression of the central idea",
+        "answer": "Obtaining a general impression of the central idea",
+        "correct": true
+      },
+      {
+        "question": "'The man jogs regularly.' Identify the adverb type.",
+        "options": [
+          "adverb of frequency",
+          "adverb of manner",
+          "adverb of place",
+          "adverb of time"
+        ],
+        "selected": "adverb of frequency",
+        "answer": "adverb of frequency",
+        "correct": true
+      },
+      {
+        "question": "The letter <a> is pronounced /i/ in __________.",
+        "options": [
+          "Pass",
+          "Village",
+          "Many",
+          "Woman"
+        ],
+        "selected": "Village",
+        "answer": "Village",
+        "correct": true
+      },
+      {
+        "question": "Notable reference collection includes all of these EXCEPT __________.",
+        "options": [
+          "Fact sources",
+          "Books",
+          "Encyclopaedia",
+          "Dictionaries"
+        ],
+        "selected": "Books",
+        "answer": "Books",
+        "correct": true
+      },
+      {
+        "question": "One of the following is NOT a way of enhancing coherence.",
+        "options": [
+          "Avoiding the use of pronouns",
+          "Using transition words",
+          "Repeating keywords",
+          "Using synonyms"
+        ],
+        "selected": "Avoiding the use of pronouns",
+        "answer": "Avoiding the use of pronouns",
+        "correct": true
+      },
+      {
+        "question": "SQ3R refers to ______.",
+        "options": [
+          "See, Question 3R",
+          "See, Query, 3R",
+          "Sign, Query, 3R",
+          "Survey, Question, 3R"
+        ],
+        "selected": "Survey, Question, 3R",
+        "answer": "Survey, Question, 3R",
+        "correct": true
+      },
+      {
+        "question": "Fact sources at the University of Lagos Library are housed at the __________.",
+        "options": [
+          "Reference section",
+          "Boulos Library",
+          "Automation section",
+          "MTN Library"
+        ],
+        "selected": "Reference section",
+        "answer": "Reference section",
+        "correct": true
+      },
+      {
+        "question": "_______ occurs when the meaning of a word depends on its environment and usage.",
+        "options": [
+          "Pronunciation",
+          "Assimilation",
+          "Opposition",
+          "Connotation"
+        ],
+        "selected": "Connotation",
+        "answer": "Connotation",
+        "correct": true
+      },
+      {
+        "question": "When an adjective is placed before a noun, it is said to be in what position?",
+        "options": [
+          "Superlative",
+          "Attributive",
+          "Positive",
+          "Comparative"
+        ],
+        "selected": "Attributive",
+        "answer": "Attributive",
+        "correct": true
+      },
+      {
+        "question": "Where information is not provided on time for the purpose for which it is required, it becomes __________.",
+        "options": [
+          "Irrelevant",
+          "Relevant",
+          "Useful",
+          "Relevant & useful"
+        ],
+        "selected": "Irrelevant",
+        "answer": "Irrelevant",
+        "correct": true
+      },
+      {
+        "question": "Self-plagiarism occurs when you:",
+        "options": [
+          "Copy from your lecturer's handout without acknowledgment",
+          "Copy from the internet without acknowledgment",
+          "None of the above",
+          "Copy from your previous assignment for a new one without acknowledgment"
+        ],
+        "selected": "Copy from your previous assignment for a new one without acknowledgment",
+        "answer": "Copy from your previous assignment for a new one without acknowledgment",
+        "correct": true
+      },
+      {
+        "question": "When you paraphrase a quote, ____________.",
+        "options": [
+          "you use the exact words",
+          "you reuse it in another language",
+          "you use your own words",
+          "you quote verbatim"
+        ],
+        "selected": "you use your own words",
+        "answer": "you use your own words",
+        "correct": true
+      },
+      {
+        "question": "Information can be in the form of __________.",
+        "options": [
+          "All",
+          "Texts",
+          "Numbers",
+          "Graphs & charts"
+        ],
+        "selected": "All",
+        "answer": "All",
+        "correct": true
+      },
+      {
+        "question": "__________ is done to reduce the number of items retrieved in advanced search.",
+        "options": [
+          "Filtering",
+          "Exercises",
+          "Simple search",
+          "Research"
+        ],
+        "selected": "Filtering",
+        "answer": "Filtering",
+        "correct": true
+      },
+      {
+        "question": "A complex sentence has __________.",
+        "options": [
+          "One independent clause and one or more dependent clauses",
+          "Two independent clauses and one dependent clause",
+          "Two independent clauses and one or more dependent clauses",
+          "One independent clause and one dependent clause"
+        ],
+        "selected": "One independent clause and one or more dependent clauses",
+        "answer": "One independent clause and one or more dependent clauses",
+        "correct": true
+      },
+      {
+        "question": "__________ provide information on places and physical features.",
+        "options": [
+          "Bibliographical source",
+          "None",
+          "Geographical source",
+          "Fact source"
+        ],
+        "selected": "Geographical source",
+        "answer": "Geographical source",
+        "correct": true
+      },
+      {
+        "question": "The movement of the eyes in the process of reading can be described as:",
+        "options": [
+          "Glottalic",
+          "Saccadic",
+          "Pulmonic",
+          "Velaric"
+        ],
+        "selected": "Saccadic",
+        "answer": "Saccadic",
+        "correct": true
+      },
+      {
+        "question": "A verb which always occurs with an object is a/an _____________ verb.",
+        "options": [
+          "Transitive",
+          "Primary auxiliary",
+          "Modal auxiliary",
+          "Intransitive"
+        ],
+        "selected": "Transitive",
+        "answer": "Transitive",
+        "correct": true
+      },
+      {
+        "question": "Fair use allows the usage of copyrighted works for __________.",
+        "options": [
+          "Prosecution purposes",
+          "Academic purposes",
+          "Publishing purposes",
+          "Business purposes"
+        ],
+        "selected": "Academic purposes",
+        "answer": "Academic purposes",
+        "correct": true
+      },
+      {
+        "question": "Vowel distinctions do not include:",
+        "options": [
+          "quadriphthongs",
+          "monophthongs",
+          "triphthongs",
+          "diphthongs"
+        ],
+        "selected": "quadriphthongs",
+        "answer": "quadriphthongs",
+        "correct": true
+      },
+      {
+        "question": "What is the maximum number of consonants allowed at the beginning of an English syllable?",
+        "options": [
+          "5",
+          "6",
+          "3",
+          "4"
+        ],
+        "selected": "3",
+        "answer": "3",
+        "correct": true
+      },
+      {
+        "question": "One of the following is not a criterion for predicting stress.",
+        "options": [
+          "Semantic",
+          "Phonological",
+          "Syntactic",
+          "Morphological"
+        ],
+        "selected": "Semantic",
+        "answer": "Semantic",
+        "correct": true
+      },
+      {
+        "question": "A dictionary aids vocabulary development by ____________.",
+        "options": [
+          "all of the above",
+          "indicating the ways the words are pronounced",
+          "suggesting meanings of words",
+          "indicating the context of usage and spelling"
+        ],
+        "selected": "all of the above",
+        "answer": "all of the above",
+        "correct": true
+      },
+      {
+        "question": "A thesaurus is a __________.",
+        "options": [
+          "Simplified dictionary",
+          "Pictorial dictionary",
+          "Phonetic dictionary",
+          "Specialized dictionary"
+        ],
+        "selected": "Specialized dictionary",
+        "answer": "Specialized dictionary",
+        "correct": true
+      },
+      {
+        "question": "A/an __________ is a condensed version of an original work.",
+        "options": [
+          "Summary",
+          "Blurb",
+          "Abstract",
+          "Preface"
+        ],
+        "selected": "Abstract",
+        "answer": "Summary",
+        "correct": false
+      },
+      {
+        "question": "Closing or rising diphthongs never end in:",
+        "options": [
+          "/i/",
+          "None of the above",
+          "/u/",
+          "The schwa"
+        ],
+        "selected": "The schwa",
+        "answer": "The schwa",
+        "correct": true
+      },
+      {
+        "question": "When searching for any book on Mathematics in the University of Lagos Library, which shelf would you go to?",
+        "options": [
+          "Shelf NA",
+          "Shelf HA",
+          "Shelf QA",
+          "Shelf QR"
+        ],
+        "selected": "Shelf QA",
+        "answer": "Shelf QA",
+        "correct": true
+      },
+      {
+        "question": "Radio, tape recorder, gramophone, and audio cassette player are examples of __________.",
+        "options": [
+          "Audio materials",
+          "Electronic materials",
+          "Visual materials",
+          "Audio-visual materials"
+        ],
+        "selected": "Audio materials",
+        "answer": "Audio-visual materials",
+        "correct": false
+      },
+      {
+        "question": "All are eligible for copyright according to the World Intellectual Property Organization, EXCEPT __________.",
+        "options": [
+          "Painting",
+          "Music",
+          "Books",
+          "Complimentary cards"
+        ],
+        "selected": "Complimentary cards",
+        "answer": "Complimentary cards",
+        "correct": true
+      },
+      {
+        "question": "The label 'bilabial glide' refers to __________.",
+        "options": [
+          "/w/",
+          "/m/",
+          "/b/",
+          "/p/"
+        ],
+        "selected": "/w/",
+        "answer": "/w/",
+        "correct": true
+      },
+      {
+        "question": "With copyright law, one can use another person's work without permission.",
+        "options": [
+          "True",
+          "Partially True",
+          "False",
+          "Partially false"
+        ],
+        "selected": "False",
+        "answer": "False",
+        "correct": true
+      },
+      {
+        "question": "Every complex word contains a/an ______.",
+        "options": [
+          "Affix",
+          "Verb",
+          "Prefix",
+          "Noun"
+        ],
+        "selected": "Affix",
+        "answer": "Affix",
+        "correct": true
+      },
+      {
+        "question": "The mnemonic __________ serves as a guide to productive study reading.",
+        "options": [
+          "NEARER",
+          "LEARNER",
+          "REALER",
+          "REARER"
+        ],
+        "selected": "LEARNER",
+        "answer": "LEARNER",
+        "correct": true
+      },
+      {
+        "question": "One of the major benefits of using library databases is __________.",
+        "options": [
+          "The fast internet speed",
+          "The value you get for your money",
+          "That they are subscribed to by the library to support students' assignments and research",
+          "All of the above"
+        ],
+        "selected": "All of the above",
+        "answer": "That they are subscribed to by the library to support students' assignments and research",
+        "correct": false
+      },
+      {
+        "question": "A well-developed paragraph contains the following except _______.",
+        "options": [
+          "Definition of terms",
+          "Examples and illustrations",
+          "Evaluation of cause and effect",
+          "Sentence fragments"
+        ],
+        "selected": "Sentence fragments",
+        "answer": "Sentence fragments",
+        "correct": true
+      },
+      {
+        "question": "Transitions can occur __________.",
+        "options": [
+          "Only within a paragraph",
+          "Only between paragraphs",
+          "Either between or within paragraphs",
+          "None of the above"
+        ],
+        "selected": "Either between or within paragraphs",
+        "answer": "Either between or within paragraphs",
+        "correct": true
+      },
+      {
+        "question": "Dictionaries are used as quick __________ sources in the library.",
+        "options": [
+          "Publication",
+          "Reference",
+          "Serial",
+          "Manual"
+        ],
+        "selected": "Reference",
+        "answer": "Reference",
+        "correct": true
+      },
+      {
+        "question": "The URL of a website accredited to a post-secondary institution usually ends with __________.",
+        "options": [
+          ".gov",
+          ".org",
+          ".com",
+          ".edu"
+        ],
+        "selected": ".edu",
+        "answer": ".edu",
+        "correct": true
+      },
+      {
+        "question": "Vowels cannot be articulated when the lips are ______.",
+        "options": [
+          "Neutral",
+          "Spread",
+          "Rounded",
+          "Pursed"
+        ],
+        "selected": "Neutral",
+        "answer": "Pursed",
+        "correct": false
+      },
+      {
+        "question": "I saw them across the road. The expression 'across the road' can be described as a ______.",
+        "options": [
+          "Noun phrase",
+          "Adjective phrase",
+          "Prepositional phrase",
+          "Verb phrase"
+        ],
+        "selected": "Prepositional phrase",
+        "answer": "Prepositional phrase",
+        "correct": true
+      },
+      {
+        "question": "Generally, information sources are divided into the following categories:",
+        "options": [
+          "Primary only",
+          "Tertiary only",
+          "Secondary only",
+          "Primary & Tertiary"
+        ],
+        "selected": "Primary & Tertiary",
+        "answer": "Primary & Tertiary",
+        "correct": true
+      },
+      {
+        "question": "'OR' is used as a search strategy when a user wants to ______ the search.",
+        "options": [
+          "Narrow",
+          "Develop",
+          "Broaden",
+          "Limit"
+        ],
+        "selected": "Broaden",
+        "answer": "Broaden",
+        "correct": true
+      },
+      {
+        "question": "Analytical essays focus on the following except ________.",
+        "options": [
+          "Identification of an issue",
+          "Providing a sequential or chronological account",
+          "Examination of the issue",
+          "Assessment of the implication for human existence"
+        ],
+        "selected": "Providing a sequential or chronological account",
+        "answer": "Providing a sequential or chronological account",
+        "correct": true
+      },
+      {
+        "question": "In-text citation appears in the manuscript.",
+        "options": [
+          "Partially false",
+          "Partially true",
+          "False",
+          "True"
+        ],
+        "selected": "True",
+        "answer": "True",
+        "correct": true
+      },
+      {
+        "question": "Biographical sources are reference materials that provide individual information such as __________.",
+        "options": [
+          "Date of birth",
+          "All of the above",
+          "Place of birth",
+          "Career achievements"
+        ],
+        "selected": "All of the above",
+        "answer": "All of the above",
+        "correct": true
+      },
+      {
+        "question": "__________ are reference materials that provide spellings, meanings, pronunciation and synonyms of words.",
+        "options": [
+          "Newspaper",
+          "Index",
+          "Encyclopaedias",
+          "Dictionaries"
+        ],
+        "selected": "Dictionaries",
+        "answer": "Dictionaries",
+        "correct": true
+      }
+    ],
+    "timestamp": "2026-03-03T22:50:47.894721"
+  },
+  {
+    "name": "Atode Excellence",
+    "subject": "gst",
+    "score": 48,
+    "total": 60,
+    "percentage": 80.0,
+    "indices": [
+      42,
+      129,
+      319,
+      132,
+      164,
+      11,
+      302,
+      71,
+      46,
+      139,
+      67,
+      331,
+      131,
+      236,
+      170,
+      344,
+      283,
+      114,
+      340,
+      33,
+      15,
+      238,
+      104,
+      115,
+      141,
+      231,
+      106,
+      85,
+      163,
+      194,
+      34,
+      372,
+      215,
+      247,
+      230,
+      285,
+      373,
+      144,
+      243,
+      83,
+      380,
+      107,
+      96,
+      198,
+      79,
+      240,
+      3,
+      201,
+      12,
+      381,
+      4,
+      44,
+      361,
+      65,
+      75,
+      165,
+      118,
+      208,
+      256,
+      241
+    ],
+    "answers": [
+      "choosing a controlling idea",
+      "A & C",
+      "An adverbial clause",
+      "Adverb of manner",
+      "The author's prescription",
+      "Quotations from the text are included",
+      "To introduce the name of the publisher in a text",
+      "you use your own words",
+      "False",
+      "Mechanics",
+      "conflicting details",
+      "listening",
+      "Author/title & subject",
+      "/s/",
+      "Sherriff",
+      "get specific information",
+      "True",
+      "Annual",
+      "narrative",
+      "Reference section",
+      "Library catalogue",
+      "Prominence",
+      ".edu",
+      "Content, Organisation, Expression, Mechanics",
+      "The articulatory system",
+      "Call mark",
+      "CHALlenge / chalLENGE",
+      "Reading widely",
+      "Date and relevance",
+      "Either a noun or pronoun",
+      "unstressed syllables",
+      "Comprehend",
+      "Filtering",
+      "Pointer and indicator",
+      "Several",
+      "Class H",
+      "5",
+      "Suprasegmentals",
+      "Dismissed from school",
+      "Sentence structure",
+      "Arouse and sustain reader's interest",
+      "APA",
+      "Filtering",
+      "The MD and Chief Executive Officer of the company was introduced.",
+      "All of the above",
+      "A variation of long and short paragraphs",
+      null,
+      "Provides instructions on how to do things",
+      "44",
+      "The blurb",
+      null,
+      "Simple past",
+      "Root or stem",
+      "Reference",
+      "against",
+      "All of the above",
+      "Restricted",
+      "Tongue movement",
+      "Manual",
+      "Experimental"
+    ],
+    "details": [
+      {
+        "question": "_________________ is not a step in paragraph development.",
+        "options": [
+          "none of the above",
+          "giving examples",
+          "choosing a controlling idea",
+          "explaining the controlling idea"
+        ],
+        "selected": "choosing a controlling idea",
+        "answer": "none of the above",
+        "correct": false
+      },
+      {
+        "question": "The research and bibliographic section of the library houses __________.",
+        "options": [
+          "PhD thesis",
+          "Law books",
+          "Old and current newspapers",
+          "A & C"
+        ],
+        "selected": "A & C",
+        "answer": "PhD thesis",
+        "correct": false
+      },
+      {
+        "question": "The clause introduced by a relative pronoun is known as:",
+        "options": [
+          "An adjectival clause",
+          "Pronoun clause",
+          "Verbal clause",
+          "An adverbial clause"
+        ],
+        "selected": "An adverbial clause",
+        "answer": "An adjectival clause",
+        "correct": false
+      },
+      {
+        "question": "My mother cooks very well. 'Very well' is an __________.",
+        "options": [
+          "Adverb of degree",
+          "Adverb of time",
+          "Adverb of manner",
+          "Adverb of place"
+        ],
+        "selected": "Adverb of manner",
+        "answer": "Adverb of manner",
+        "correct": true
+      },
+      {
+        "question": "The reading speed adopted depends on all the following except __________.",
+        "options": [
+          "The nature of the reading material",
+          "The purpose of the reading",
+          "The author's prescription",
+          "The reader"
+        ],
+        "selected": "The author's prescription",
+        "answer": "The author's prescription",
+        "correct": true
+      },
+      {
+        "question": "Which of the following is NOT true about writing a summary?",
+        "options": [
+          "Quotations from the text are included",
+          "The present tense is used",
+          "The major facts are included",
+          "Expressions are paraphrased with new words"
+        ],
+        "selected": "Quotations from the text are included",
+        "answer": "Quotations from the text are included",
+        "correct": true
+      },
+      {
+        "question": "The colon is used in the following situations EXCEPT:",
+        "options": [
+          "To introduce a list as part of a sentence",
+          "To introduce the name of the publisher in a text",
+          "To introduce direct speeches in some contexts",
+          "To break a title into two parts"
+        ],
+        "selected": "To introduce the name of the publisher in a text",
+        "answer": "To introduce the name of the publisher in a text",
+        "correct": true
+      },
+      {
+        "question": "When you paraphrase a quote, ____________.",
+        "options": [
+          "you use the exact words",
+          "you reuse it in another language",
+          "you use your own words",
+          "you quote verbatim"
+        ],
+        "selected": "you use your own words",
+        "answer": "you use your own words",
+        "correct": true
+      },
+      {
+        "question": "With copyright law, one can use another person's work without permission.",
+        "options": [
+          "True",
+          "Partially True",
+          "False",
+          "Partially false"
+        ],
+        "selected": "False",
+        "answer": "False",
+        "correct": true
+      },
+      {
+        "question": "__________ are the meaningful items occurring in a sentence or cluster of sentences, expressed in symbols rather than in words.",
+        "options": [
+          "Mechanics",
+          "Contents",
+          "Paragraphs",
+          "Expressions"
+        ],
+        "selected": "Mechanics",
+        "answer": "Mechanics",
+        "correct": true
+      },
+      {
+        "question": "One of the following is not a component of a good paragraph.",
+        "options": [
+          "concluding sentence",
+          "supporting details",
+          "a topic sentence",
+          "conflicting details"
+        ],
+        "selected": "conflicting details",
+        "answer": "conflicting details",
+        "correct": true
+      },
+      {
+        "question": "Note-taking complements __________________",
+        "options": [
+          "none of the above",
+          "listening",
+          "speaking",
+          "writing"
+        ],
+        "selected": "listening",
+        "answer": "listening",
+        "correct": true
+      },
+      {
+        "question": "Students can search the manual library catalogue for information materials using __________.",
+        "options": [
+          "None",
+          "Author/series & subject",
+          "Author/title & keyword",
+          "Author/title & subject"
+        ],
+        "selected": "Author/title & subject",
+        "answer": "Author/title & subject",
+        "correct": true
+      },
+      {
+        "question": "A three-consonant onset obligatorily has _______ as the first consonant.",
+        "options": [
+          "/p/",
+          "/s/",
+          "/k/",
+          "/t/"
+        ],
+        "selected": "/s/",
+        "answer": "/s/",
+        "correct": true
+      },
+      {
+        "question": "To be elected __________, candidates must have a solid background in law enforcement.",
+        "options": [
+          "Sheriff",
+          "Sherrif",
+          "Sherriff",
+          "Sherif"
+        ],
+        "selected": "Sherriff",
+        "answer": "Sheriff",
+        "correct": false
+      },
+      {
+        "question": "In scanning a reading material, the reader seeks to ____________________",
+        "options": [
+          "get specific information",
+          "have a general idea of the topic",
+          "ensure grammaticality",
+          "check plagiarism"
+        ],
+        "selected": "get specific information",
+        "answer": "get specific information",
+        "correct": true
+      },
+      {
+        "question": "Faculty handbook is an example of a small ready reference source.",
+        "options": [
+          "False",
+          "True",
+          "Partially false",
+          "No"
+        ],
+        "selected": "True",
+        "answer": "True",
+        "correct": true
+      },
+      {
+        "question": "Yearbooks are also known as __________.",
+        "options": [
+          "Dictionary",
+          "Directory",
+          "Handbook",
+          "Annual"
+        ],
+        "selected": "Annual",
+        "answer": "Annual",
+        "correct": true
+      },
+      {
+        "question": "The __________ essay emphasizes character and setting.",
+        "options": [
+          "narrative",
+          "descriptive",
+          "persuasive",
+          "analytical"
+        ],
+        "selected": "narrative",
+        "answer": "narrative",
+        "correct": true
+      },
+      {
+        "question": "Fact sources at the University of Lagos Library are housed at the __________.",
+        "options": [
+          "Reference section",
+          "Boulos Library",
+          "Automation section",
+          "MTN Library"
+        ],
+        "selected": "Reference section",
+        "answer": "Reference section",
+        "correct": true
+      },
+      {
+        "question": "A library's entire holdings are kept in a manual database called __________.",
+        "options": [
+          "Library holdings",
+          "Library catalogue",
+          "Check list",
+          "Book box"
+        ],
+        "selected": "Library catalogue",
+        "answer": "Library catalogue",
+        "correct": true
+      },
+      {
+        "question": "_______ theory is a phonetic theory of syllable description.",
+        "options": [
+          "Prominence",
+          "Diffusion",
+          "Osmosis",
+          "Synchronic"
+        ],
+        "selected": "Prominence",
+        "answer": "Prominence",
+        "correct": true
+      },
+      {
+        "question": "The URL of a website accredited to a post-secondary institution usually ends with __________.",
+        "options": [
+          ".gov",
+          ".org",
+          ".com",
+          ".edu"
+        ],
+        "selected": ".edu",
+        "answer": ".edu",
+        "correct": true
+      },
+      {
+        "question": "In essay writing, the acronym COEM means __________.",
+        "options": [
+          "Content, Organisation, Expression, Mechanics",
+          "Content, Organisation, Entertainment, Mechanics",
+          "Comment, Organisation, Expression, Mechanics",
+          "Content, Orientation, Expression, Mechanics"
+        ],
+        "selected": "Content, Organisation, Expression, Mechanics",
+        "answer": "Content, Organisation, Expression, Mechanics",
+        "correct": true
+      },
+      {
+        "question": "One of the following is NOT essential to reading:",
+        "options": [
+          "Written signs",
+          "The eyes",
+          "The articulatory system",
+          "Printed signs"
+        ],
+        "selected": "The articulatory system",
+        "answer": "The articulatory system",
+        "correct": true
+      },
+      {
+        "question": "Combination of letters and figures indicating the classes of a book in a library is known as ______.",
+        "options": [
+          "Book indicator",
+          "Call mark",
+          "Book figure",
+          "Marker"
+        ],
+        "selected": "Call mark",
+        "answer": "Call mark",
+        "correct": true
+      },
+      {
+        "question": "The word 'challenge' when used as a noun or a verb is respectively stressed as __________.",
+        "options": [
+          "chalLENGE / CHALlenge",
+          "CHALlenge / chalLENGE",
+          "CHALLENGE / challenge",
+          "CHALlenge / CHALlenge"
+        ],
+        "selected": "CHALlenge / chalLENGE",
+        "answer": "CHALlenge / CHALlenge",
+        "correct": false
+      },
+      {
+        "question": "In English, __________ is one of the best ways to acquire new words.",
+        "options": [
+          "Cultural exchange",
+          "Reading widely",
+          "Vocalization",
+          "Watching movies"
+        ],
+        "selected": "Reading widely",
+        "answer": "Reading widely",
+        "correct": true
+      },
+      {
+        "question": "Ranking of articles retrieved from databases is by __________.",
+        "options": [
+          "Date and relevance",
+          "The number of records",
+          "All of the above",
+          "Number of times the search was conducted"
+        ],
+        "selected": "Date and relevance",
+        "answer": "Date and relevance",
+        "correct": true
+      },
+      {
+        "question": "Prepositions begin phrases that end with __________.",
+        "options": [
+          "Either a noun or pronoun",
+          "Verb or adverb",
+          "Conjunction or adjunct",
+          "Adjective or pronoun"
+        ],
+        "selected": "Either a noun or pronoun",
+        "answer": "Either a noun or pronoun",
+        "correct": true
+      },
+      {
+        "question": "Zero stress refers to:",
+        "options": [
+          "primary stress",
+          "tertiary stress",
+          "secondary stress",
+          "unstressed syllables"
+        ],
+        "selected": "unstressed syllables",
+        "answer": "unstressed syllables",
+        "correct": true
+      },
+      {
+        "question": "The main purpose of reading is to ______ written material.",
+        "options": [
+          "Comprehend",
+          "Identify",
+          "Buy",
+          "Practice"
+        ],
+        "selected": "Comprehend",
+        "answer": "Comprehend",
+        "correct": true
+      },
+      {
+        "question": "The following are search techniques EXCEPT:",
+        "options": [
+          "Truncation",
+          "Filtering",
+          "Boolean",
+          "Wild card"
+        ],
+        "selected": "Filtering",
+        "answer": "Filtering",
+        "correct": true
+      },
+      {
+        "question": "An index serves as _______ to required information.",
+        "options": [
+          "Indicator",
+          "None",
+          "Pointer and indicator",
+          "Pointer"
+        ],
+        "selected": "Pointer and indicator",
+        "answer": "Pointer and indicator",
+        "correct": true
+      },
+      {
+        "question": "All but one of these are Indefinite pronouns.",
+        "options": [
+          "Several",
+          "Someone",
+          "Anyone",
+          "Everyone"
+        ],
+        "selected": "Several",
+        "answer": "Several",
+        "correct": true
+      },
+      {
+        "question": "Law books in the University of Lagos Library can be found in:",
+        "options": [
+          "Class M",
+          "Class H",
+          "Class G",
+          "Class K"
+        ],
+        "selected": "Class H",
+        "answer": "Class K",
+        "correct": false
+      },
+      {
+        "question": "To develop a paragraph effectively, a ______-step process is recommended.",
+        "options": [
+          "5",
+          "3",
+          "7",
+          "1"
+        ],
+        "selected": "5",
+        "answer": "5",
+        "correct": true
+      },
+      {
+        "question": "Features which apply to units higher than the segments are known as __________.",
+        "options": [
+          "Phonologicals",
+          "Hierarchicals",
+          "Segmentals",
+          "Suprasegmentals"
+        ],
+        "selected": "Suprasegmentals",
+        "answer": "Suprasegmentals",
+        "correct": true
+      },
+      {
+        "question": "A student that has committed plagiarism can be ______.",
+        "options": [
+          "Promoted",
+          "Jailed",
+          "Given an award",
+          "Dismissed from school"
+        ],
+        "selected": "Dismissed from school",
+        "answer": "Dismissed from school",
+        "correct": true
+      },
+      {
+        "question": "Grammar is the study of __________.",
+        "options": [
+          "Sentence structure",
+          "Words and sentences",
+          "Phrase structure",
+          "Sentence combination"
+        ],
+        "selected": "Sentence structure",
+        "answer": "Words and sentences",
+        "correct": false
+      },
+      {
+        "question": "The chief aim of a narrative essay is to ________.",
+        "options": [
+          "Explain a process",
+          "Create a mental image of something",
+          "Defend a position",
+          "Arouse and sustain reader's interest"
+        ],
+        "selected": "Arouse and sustain reader's interest",
+        "answer": "Arouse and sustain reader's interest",
+        "correct": true
+      },
+      {
+        "question": "The most commonly used citation style in Social Sciences is __________.",
+        "options": [
+          "Harvard",
+          "Chicago",
+          "MLA",
+          "APA"
+        ],
+        "selected": "APA",
+        "answer": "APA",
+        "correct": true
+      },
+      {
+        "question": "__________ is done to reduce the number of items retrieved in advanced search.",
+        "options": [
+          "Filtering",
+          "Exercises",
+          "Simple search",
+          "Research"
+        ],
+        "selected": "Filtering",
+        "answer": "Filtering",
+        "correct": true
+      },
+      {
+        "question": "Which of these sentences has a plural compound subject?",
+        "options": [
+          "Hot lemonade and honey is good for a cold.",
+          "The man and his wife were present.",
+          "The MD and Chief Executive Officer of the company was introduced.",
+          "Waiter, is the rice and beans ready?"
+        ],
+        "selected": "The MD and Chief Executive Officer of the company was introduced.",
+        "answer": "The man and his wife were present.",
+        "correct": false
+      },
+      {
+        "question": "Biographical sources are reference materials that provide individual information such as __________.",
+        "options": [
+          "Date of birth",
+          "All of the above",
+          "Place of birth",
+          "Career achievements"
+        ],
+        "selected": "All of the above",
+        "answer": "All of the above",
+        "correct": true
+      },
+      {
+        "question": "A good essay should contain ______.",
+        "options": [
+          "A variation of long and short paragraphs",
+          "Predominantly short paragraphs",
+          "Predominantly long paragraphs",
+          "Predominantly one-sentence paragraphs"
+        ],
+        "selected": "A variation of long and short paragraphs",
+        "answer": "A variation of long and short paragraphs",
+        "correct": true
+      },
+      {
+        "question": "Identify the imperative sentence below:",
+        "options": [
+          "Do walk quickly",
+          "Take the bus home",
+          "I don't believe that!",
+          "Let's go to France"
+        ],
+        "selected": null,
+        "answer": "Take the bus home",
+        "correct": false
+      },
+      {
+        "question": "Manual is a type of reference material that __________.",
+        "options": [
+          "None",
+          "Provides instructions on how to go to places",
+          "Provides instructions on how to do things",
+          "Provides information on where to find books in the library"
+        ],
+        "selected": "Provides instructions on how to do things",
+        "answer": "Provides instructions on how to do things",
+        "correct": true
+      },
+      {
+        "question": "There are __________ sounds altogether in English.",
+        "options": [
+          "26",
+          "24",
+          "20",
+          "44"
+        ],
+        "selected": "44",
+        "answer": "44",
+        "correct": true
+      },
+      {
+        "question": "A survey of an article or chapter in a book does not take ________ into consideration.",
+        "options": [
+          "The introduction and conclusion",
+          "Its title",
+          "The topic sentences",
+          "The blurb"
+        ],
+        "selected": "The blurb",
+        "answer": "The blurb",
+        "correct": true
+      },
+      {
+        "question": "The number generated when a library book is catalogued is called:",
+        "options": [
+          "Library number",
+          "Book number",
+          "Call number",
+          "Cataloguing number"
+        ],
+        "selected": null,
+        "answer": "Call number",
+        "correct": false
+      },
+      {
+        "question": "The expression 'Olu has lived in England before' is an example of what tense?",
+        "options": [
+          "Simple present",
+          "Simple future",
+          "Simple past",
+          "Simple continuous"
+        ],
+        "selected": "Simple past",
+        "answer": "Simple past",
+        "correct": true
+      },
+      {
+        "question": "The part of a word to which other elements can be added is called ________.",
+        "options": [
+          "Prefix",
+          "Root or stem",
+          "Suffix",
+          "Phrase"
+        ],
+        "selected": "Root or stem",
+        "answer": "Root or stem",
+        "correct": true
+      },
+      {
+        "question": "Enquiries on how to access any of the resources in a library can be made at the __________ Section.",
+        "options": [
+          "Serials",
+          "Akintunde Ojo Building",
+          "Readers' Services",
+          "Reference"
+        ],
+        "selected": "Reference",
+        "answer": "Reference",
+        "correct": true
+      },
+      {
+        "question": "As a prefix, ANTI- means ____________.",
+        "options": [
+          "similar",
+          "congruent",
+          "against",
+          "dissimilar"
+        ],
+        "selected": "against",
+        "answer": "against",
+        "correct": true
+      },
+      {
+        "question": "Bibliography refers to __________.",
+        "options": [
+          "All of the above",
+          "List of books, magazines, articles, etc. about a particular subject",
+          "A list of the written sources of information on a subject",
+          "A list of books and articles that have been used by someone when writing a subject"
+        ],
+        "selected": "All of the above",
+        "answer": "All of the above",
+        "correct": true
+      },
+      {
+        "question": "Which of the following is NOT a quality of a good topic sentence?",
+        "options": [
+          "Expanded",
+          "Emphatic",
+          "Concise",
+          "Restricted"
+        ],
+        "selected": "Restricted",
+        "answer": "Expanded",
+        "correct": false
+      },
+      {
+        "question": "One of the following is not involved in vowel articulation:",
+        "options": [
+          "Length",
+          "Tongue movement",
+          "Lip shaping",
+          "Contact"
+        ],
+        "selected": "Tongue movement",
+        "answer": "Contact",
+        "correct": false
+      },
+      {
+        "question": "A ______ can be consulted for instruction on how to do things.",
+        "options": [
+          "Manual",
+          "Newsletter",
+          "Lecture note",
+          "Card"
+        ],
+        "selected": "Manual",
+        "answer": "Manual",
+        "correct": true
+      },
+      {
+        "question": "One of the following is not a type of essay:",
+        "options": [
+          "Analytical",
+          "Narrative",
+          "Experimental",
+          "Descriptive"
+        ],
+        "selected": "Experimental",
+        "answer": "Experimental",
+        "correct": true
+      }
+    ],
+    "timestamp": "2026-03-03T23:06:29.503430"
+  },
+  {
+    "name": "Atode Excellence",
+    "subject": "gst",
+    "score": 53,
+    "total": 60,
+    "percentage": 88.33,
+    "indices": [
+      105,
+      288,
+      154,
+      65,
+      345,
+      123,
+      92,
+      222,
+      286,
+      221,
+      22,
+      343,
+      356,
+      102,
+      291,
+      336,
+      59,
+      112,
+      122,
+      142,
+      198,
+      363,
+      331,
+      379,
+      70,
+      111,
+      17,
+      277,
+      91,
+      186,
+      382,
+      11,
+      362,
+      178,
+      193,
+      19,
+      99,
+      157,
+      283,
+      318,
+      130,
+      378,
+      366,
+      89,
+      303,
+      233,
+      214,
+      131,
+      264,
+      376,
+      305,
+      321,
+      119,
+      332,
+      18,
+      42,
+      191,
+      114,
+      301,
+      103
+    ],
+    "answers": [
+      "1",
+      "Book selling",
+      "A paragraph must begin with a topic sentence",
+      "Reference",
+      "Analyzes & explains",
+      "Close",
+      "SVOA",
+      "Rising",
+      "Affix",
+      "Not list any other names after the sixth author but write et al. in their place",
+      "Interlocutory",
+      "long and short-term",
+      "For",
+      "Audio-visual",
+      "Blending",
+      "Adolescence",
+      "exclude and narrow search",
+      "Coherence",
+      "Affixes",
+      "Compound",
+      "The man and his wife were present.",
+      "Providing a sequential or chronological account",
+      "listening",
+      "Plagiarism",
+      "AND, OR, NOT",
+      "Morphology and syntax",
+      "Relative clause",
+      "Attitudinal",
+      "Prosecute the offender under the law",
+      "Souvenier",
+      "Science Direct, Ebscohost & Ebrary",
+      "Quotations from the text are included",
+      "True",
+      "Either between or within paragraphs",
+      "Closed classed items",
+      "Village",
+      "Audio-visual resources",
+      "Cited",
+      "True",
+      "Ask questions",
+      "IPA",
+      "Restricted access",
+      "NLA",
+      "Relevancy and accuracy",
+      "Author",
+      "Rounded/around",
+      "Review abstract",
+      "Author/title & subject",
+      "Percieved",
+      "Semantic",
+      "Obtaining a general impression of the central idea",
+      "Transitive",
+      "Lexical and functional",
+      "an indirect question",
+      "Free",
+      "none of the above",
+      "Academic purposes",
+      "Annual",
+      "Paragraph",
+      "Direct object of the verb"
+    ],
+    "details": [
+      {
+        "question": "A word usually has __________ primarily stressed syllable(s).",
+        "options": [
+          "1",
+          "3",
+          "4",
+          "2"
+        ],
+        "selected": "1",
+        "answer": "1",
+        "correct": true
+      },
+      {
+        "question": "Libraries perform all of these functions EXCEPT:",
+        "options": [
+          "Organisation",
+          "Acquisition",
+          "Preservation",
+          "Book selling"
+        ],
+        "selected": "Book selling",
+        "answer": "Book selling",
+        "correct": true
+      },
+      {
+        "question": "One of the following is NOT true:",
+        "options": [
+          "A paragraph contains coherent argument",
+          "A paragraph can begin with a transition sentence",
+          "A paragraph is a unified unit",
+          "A paragraph must begin with a topic sentence"
+        ],
+        "selected": "A paragraph must begin with a topic sentence",
+        "answer": "A paragraph must begin with a topic sentence",
+        "correct": true
+      },
+      {
+        "question": "Enquiries on how to access any of the resources in a library can be made at the __________ Section.",
+        "options": [
+          "Serials",
+          "Akintunde Ojo Building",
+          "Readers' Services",
+          "Reference"
+        ],
+        "selected": "Reference",
+        "answer": "Reference",
+        "correct": true
+      },
+      {
+        "question": "A secondary source is one that _______ and _______ a primary source.",
+        "options": [
+          "Critiques and disqualify",
+          "Reviews and manipulates",
+          "All",
+          "Analyzes & explains"
+        ],
+        "selected": "Analyzes & explains",
+        "answer": "Analyzes & explains",
+        "correct": true
+      },
+      {
+        "question": "Students are advised to maintain __________ contact with their lecturers during classes.",
+        "options": [
+          "Close",
+          "Virtual",
+          "Full",
+          "Eye"
+        ],
+        "selected": "Close",
+        "answer": "Eye",
+        "correct": false
+      },
+      {
+        "question": "Which clause pattern is reflected in this sentence: The tribunal conducted the hearing behind closed doors.",
+        "options": [
+          "SVOC",
+          "SV",
+          "SVOA",
+          "SVO"
+        ],
+        "selected": "SVOA",
+        "answer": "SVOA",
+        "correct": true
+      },
+      {
+        "question": "Yes/No questions are naturally asked using the _______ tune.",
+        "options": [
+          "Fall-rise",
+          "Rise-fall",
+          "Falling",
+          "Rising"
+        ],
+        "selected": "Rising",
+        "answer": "Rising",
+        "correct": true
+      },
+      {
+        "question": "Every complex word contains a/an ______.",
+        "options": [
+          "Affix",
+          "Verb",
+          "Prefix",
+          "Noun"
+        ],
+        "selected": "Affix",
+        "answer": "Affix",
+        "correct": true
+      },
+      {
+        "question": "When a book is written by more than six authors, a researcher using the APA referencing style should _______ when citing in the reference list.",
+        "options": [
+          "Provide the name of the first three authors",
+          "List all the authors",
+          "Not list any other names after the sixth author but write et al. in their place",
+          "Write the names of the first six authors"
+        ],
+        "selected": "Not list any other names after the sixth author but write et al. in their place",
+        "answer": "Not list any other names after the sixth author but write et al. in their place",
+        "correct": true
+      },
+      {
+        "question": "Sentences can be grouped into all but one of the following types:",
+        "options": [
+          "Interlocutory",
+          "Declarative",
+          "Interrogative",
+          "Exclamatory"
+        ],
+        "selected": "Interlocutory",
+        "answer": "Interlocutory",
+        "correct": true
+      },
+      {
+        "question": "Based on the length of storage of information, memory is classified into ______",
+        "options": [
+          "long and short-term",
+          "transient and permanent",
+          "visible and invisible",
+          "variable and invariable"
+        ],
+        "selected": "long and short-term",
+        "answer": "long and short-term",
+        "correct": true
+      },
+      {
+        "question": "Which of the following is not a subordinating conjunction?",
+        "options": [
+          "For",
+          "Than",
+          "That",
+          "Even if"
+        ],
+        "selected": "For",
+        "answer": "For",
+        "correct": true
+      },
+      {
+        "question": "Multimedia information pertains to the use of diversified media of communication such as __________.",
+        "options": [
+          "Numbers",
+          "Text",
+          "Graphs",
+          "Audio-visual"
+        ],
+        "selected": "Audio-visual",
+        "answer": "Audio-visual",
+        "correct": true
+      },
+      {
+        "question": "Which one of the following is not a Word Formation Strategy?",
+        "options": [
+          "Suffixing",
+          "Clipping",
+          "Blending",
+          "Coining"
+        ],
+        "selected": "Blending",
+        "answer": "Coining",
+        "correct": false
+      },
+      {
+        "question": "________________ is often called the awkward stage.",
+        "options": [
+          "Adolescence",
+          "Adolessents",
+          "Adolscence",
+          "Adolescense"
+        ],
+        "selected": "Adolescence",
+        "answer": "Adolescence",
+        "correct": true
+      },
+      {
+        "question": "The 'NOT' operator is used to __________.",
+        "options": [
+          "include and broaden search",
+          "none",
+          "exclude and narrow search",
+          "connect words"
+        ],
+        "selected": "exclude and narrow search",
+        "answer": "exclude and narrow search",
+        "correct": true
+      },
+      {
+        "question": "The element which makes a paragraph easily understandable to the reader is __________.",
+        "options": [
+          "Unity",
+          "Coherence",
+          "Development",
+          "Completeness"
+        ],
+        "selected": "Coherence",
+        "answer": "Coherence",
+        "correct": true
+      },
+      {
+        "question": "Prefixes and suffixes are generally known as __________.",
+        "options": [
+          "Stem",
+          "Affixation",
+          "Affixes",
+          "Root"
+        ],
+        "selected": "Affixes",
+        "answer": "Affixes",
+        "correct": true
+      },
+      {
+        "question": "__________ words involve two or more independent words.",
+        "options": [
+          "Compound-complex",
+          "Compound",
+          "Simple",
+          "Complex"
+        ],
+        "selected": "Compound",
+        "answer": "Compound",
+        "correct": true
+      },
+      {
+        "question": "Which of these sentences has a plural compound subject?",
+        "options": [
+          "Hot lemonade and honey is good for a cold.",
+          "The man and his wife were present.",
+          "The MD and Chief Executive Officer of the company was introduced.",
+          "Waiter, is the rice and beans ready?"
+        ],
+        "selected": "The man and his wife were present.",
+        "answer": "The man and his wife were present.",
+        "correct": true
+      },
+      {
+        "question": "Analytical essays focus on the following except ________.",
+        "options": [
+          "Identification of an issue",
+          "Providing a sequential or chronological account",
+          "Examination of the issue",
+          "Assessment of the implication for human existence"
+        ],
+        "selected": "Providing a sequential or chronological account",
+        "answer": "Providing a sequential or chronological account",
+        "correct": true
+      },
+      {
+        "question": "Note-taking complements __________________",
+        "options": [
+          "none of the above",
+          "listening",
+          "speaking",
+          "writing"
+        ],
+        "selected": "listening",
+        "answer": "listening",
+        "correct": true
+      },
+      {
+        "question": "__________ is the act of using copyrighted work without permission or acknowledging the source.",
+        "options": [
+          "Plagiarism",
+          "Dubbing",
+          "Copying",
+          "Copying and pasting"
+        ],
+        "selected": "Plagiarism",
+        "answer": "Plagiarism",
+        "correct": true
+      },
+      {
+        "question": "Boolean operators are:",
+        "options": [
+          "AND, OR, NOT",
+          "DVD players",
+          "computer databases",
+          "AND, BUT, OR"
+        ],
+        "selected": "AND, OR, NOT",
+        "answer": "AND, OR, NOT",
+        "correct": true
+      },
+      {
+        "question": "Grammar is categorized into two major sections, namely __________.",
+        "options": [
+          "Syntax and phonetics",
+          "Lexis and morphology",
+          "Syntax and semantics",
+          "Morphology and syntax"
+        ],
+        "selected": "Morphology and syntax",
+        "answer": "Morphology and syntax",
+        "correct": true
+      },
+      {
+        "question": "Another name for an adjective clause is:",
+        "options": [
+          "Relative clause",
+          "Blackball clause",
+          "Restrictive clause",
+          "Preemptive clause"
+        ],
+        "selected": "Relative clause",
+        "answer": "Relative clause",
+        "correct": true
+      },
+      {
+        "question": "When one's intonation betrays their emotion on the subject matter, it is said to perform a/an _______.",
+        "options": [
+          "Grammatical",
+          "Discourse",
+          "Attitudinal",
+          "Accentual"
+        ],
+        "selected": "Attitudinal",
+        "answer": "Attitudinal",
+        "correct": true
+      },
+      {
+        "question": "The punishment for violating copyright law is __________.",
+        "options": [
+          "Kill the offender",
+          "Prosecute the offender under the law",
+          "All of the above",
+          "Jail the offender"
+        ],
+        "selected": "Prosecute the offender under the law",
+        "answer": "Prosecute the offender under the law",
+        "correct": true
+      },
+      {
+        "question": "Identify the incorrectly spelled word below:",
+        "options": [
+          "Souvenier",
+          "Vagrant",
+          "Resinous",
+          "Chauffeur"
+        ],
+        "selected": "Souvenier",
+        "answer": "Souvenier",
+        "correct": true
+      },
+      {
+        "question": "The following are listed electronic information resources in UNILAG Library website EXCEPT ________.",
+        "options": [
+          "Science Direct, Dogpile & Google",
+          "Yahoo, Google & OPAC",
+          "Google, HINARI & AJOL",
+          "Science Direct, Ebscohost & Ebrary"
+        ],
+        "selected": "Science Direct, Ebscohost & Ebrary",
+        "answer": "Science Direct, Dogpile & Google",
+        "correct": false
+      },
+      {
+        "question": "Which of the following is NOT true about writing a summary?",
+        "options": [
+          "Quotations from the text are included",
+          "The present tense is used",
+          "The major facts are included",
+          "Expressions are paraphrased with new words"
+        ],
+        "selected": "Quotations from the text are included",
+        "answer": "Quotations from the text are included",
+        "correct": true
+      },
+      {
+        "question": "Index may be published as part of a book or separately.",
+        "options": [
+          "False",
+          "Partially true",
+          "Partially false",
+          "True"
+        ],
+        "selected": "True",
+        "answer": "True",
+        "correct": true
+      },
+      {
+        "question": "Transitions can occur __________.",
+        "options": [
+          "Only within a paragraph",
+          "Only between paragraphs",
+          "Either between or within paragraphs",
+          "None of the above"
+        ],
+        "selected": "Either between or within paragraphs",
+        "answer": "Either between or within paragraphs",
+        "correct": true
+      },
+      {
+        "question": "Functional morphemes in English are otherwise known as __________.",
+        "options": [
+          "Open classed items",
+          "Closed classed items",
+          "Adjectives",
+          "Modifiers"
+        ],
+        "selected": "Closed classed items",
+        "answer": "Closed classed items",
+        "correct": true
+      },
+      {
+        "question": "The letter <a> is pronounced /i/ in __________.",
+        "options": [
+          "Pass",
+          "Village",
+          "Many",
+          "Woman"
+        ],
+        "selected": "Village",
+        "answer": "Village",
+        "correct": true
+      },
+      {
+        "question": "Electronic journals, electronic images, library software, CD-ROMs are __________.",
+        "options": [
+          "Print resources",
+          "Audio-visual resources",
+          "Print and non-print",
+          "Non-print resources"
+        ],
+        "selected": "Audio-visual resources",
+        "answer": "Non-print resources",
+        "correct": false
+      },
+      {
+        "question": "To avoid plagiarism, all used works must be __________.",
+        "options": [
+          "Cited",
+          "Typed",
+          "Noted",
+          "Grouped"
+        ],
+        "selected": "Cited",
+        "answer": "Cited",
+        "correct": true
+      },
+      {
+        "question": "Faculty handbook is an example of a small ready reference source.",
+        "options": [
+          "False",
+          "True",
+          "Partially false",
+          "No"
+        ],
+        "selected": "True",
+        "answer": "True",
+        "correct": true
+      },
+      {
+        "question": "Interrogative sentences __________________",
+        "options": [
+          "Give commands",
+          "Make statements",
+          "Express strong emotion",
+          "Ask questions"
+        ],
+        "selected": "Ask questions",
+        "answer": "Ask questions",
+        "correct": true
+      },
+      {
+        "question": "Symbols used in phonetic transcription are adapted from __________.",
+        "options": [
+          "MLA",
+          "APA",
+          "PLA",
+          "IPA"
+        ],
+        "selected": "IPA",
+        "answer": "IPA",
+        "correct": true
+      },
+      {
+        "question": "A Closed Access System of collection in a library refers to ________.",
+        "options": [
+          "Materials to be borrowed for home use",
+          "Restricted access",
+          "Materials not to be photocopied",
+          "Materials to be retrieved directly by the user"
+        ],
+        "selected": "Restricted access",
+        "answer": "Restricted access",
+        "correct": true
+      },
+      {
+        "question": "All of the following are referencing styles except:",
+        "options": [
+          "MLA",
+          "ALA",
+          "Harvard",
+          "NLA"
+        ],
+        "selected": "NLA",
+        "answer": "ALA",
+        "correct": false
+      },
+      {
+        "question": "Criteria to evaluate credibility of information resources are: currency, authority, __________ and __________.",
+        "options": [
+          "Strategy and accuracy",
+          "Relevancy and intelligence",
+          "None",
+          "Relevancy and accuracy"
+        ],
+        "selected": "Relevancy and accuracy",
+        "answer": "Relevancy and accuracy",
+        "correct": true
+      },
+      {
+        "question": "One can search the library catalogue for information materials using all these EXCEPT:",
+        "options": [
+          "Subject",
+          "Author",
+          "Language",
+          "Title"
+        ],
+        "selected": "Author",
+        "answer": "Language",
+        "correct": false
+      },
+      {
+        "question": "One of the following is not a distinction made between vowels.",
+        "options": [
+          "High/low",
+          "Rounded/around",
+          "Long/short",
+          "Open/closed"
+        ],
+        "selected": "Rounded/around",
+        "answer": "Rounded/around",
+        "correct": true
+      },
+      {
+        "question": "__________ is not a type of abstract.",
+        "options": [
+          "Evaluative abstracts",
+          "Review abstract",
+          "Informative abstract",
+          "Indicative abstract"
+        ],
+        "selected": "Review abstract",
+        "answer": "Review abstract",
+        "correct": true
+      },
+      {
+        "question": "Students can search the manual library catalogue for information materials using __________.",
+        "options": [
+          "None",
+          "Author/series & subject",
+          "Author/title & keyword",
+          "Author/title & subject"
+        ],
+        "selected": "Author/title & subject",
+        "answer": "Author/title & subject",
+        "correct": true
+      },
+      {
+        "question": "For some reason, I _______ a change in her attitude.",
+        "options": [
+          "Precieved",
+          "Perceived",
+          "Percieved",
+          "Perceved"
+        ],
+        "selected": "Percieved",
+        "answer": "Perceived",
+        "correct": false
+      },
+      {
+        "question": "One of the following is not a criterion for predicting stress.",
+        "options": [
+          "Semantic",
+          "Phonological",
+          "Syntactic",
+          "Morphological"
+        ],
+        "selected": "Semantic",
+        "answer": "Semantic",
+        "correct": true
+      },
+      {
+        "question": "The first reading of a passage is often targeted at:",
+        "options": [
+          "Isolating direct points from indirect ones",
+          "Isolating subjective points from objective ones",
+          "Obtaining a general impression of the central idea",
+          "Isolating the main ideas from the minor ones"
+        ],
+        "selected": "Obtaining a general impression of the central idea",
+        "answer": "Obtaining a general impression of the central idea",
+        "correct": true
+      },
+      {
+        "question": "A verb which always occurs with an object is a/an _____________ verb.",
+        "options": [
+          "Transitive",
+          "Primary auxiliary",
+          "Modal auxiliary",
+          "Intransitive"
+        ],
+        "selected": "Transitive",
+        "answer": "Transitive",
+        "correct": true
+      },
+      {
+        "question": "Free morphemes are sub-categorized into __________.",
+        "options": [
+          "Grammatical and functional",
+          "Functional and descriptive",
+          "Descriptive and functional",
+          "Lexical and functional"
+        ],
+        "selected": "Lexical and functional",
+        "answer": "Lexical and functional",
+        "correct": true
+      },
+      {
+        "question": "A question mark is not used at the end of ________.",
+        "options": [
+          "none of the above",
+          "all of the above",
+          "a direct question",
+          "an indirect question"
+        ],
+        "selected": "an indirect question",
+        "answer": "an indirect question",
+        "correct": true
+      },
+      {
+        "question": "English stress is __________.",
+        "options": [
+          "Free",
+          "Fixed",
+          "Ordered",
+          "Mixed"
+        ],
+        "selected": "Free",
+        "answer": "Free",
+        "correct": true
+      },
+      {
+        "question": "_________________ is not a step in paragraph development.",
+        "options": [
+          "none of the above",
+          "giving examples",
+          "choosing a controlling idea",
+          "explaining the controlling idea"
+        ],
+        "selected": "none of the above",
+        "answer": "none of the above",
+        "correct": true
+      },
+      {
+        "question": "Fair use allows the usage of copyrighted works for __________.",
+        "options": [
+          "Prosecution purposes",
+          "Academic purposes",
+          "Publishing purposes",
+          "Business purposes"
+        ],
+        "selected": "Academic purposes",
+        "answer": "Academic purposes",
+        "correct": true
+      },
+      {
+        "question": "Yearbooks are also known as __________.",
+        "options": [
+          "Dictionary",
+          "Directory",
+          "Handbook",
+          "Annual"
+        ],
+        "selected": "Annual",
+        "answer": "Annual",
+        "correct": true
+      },
+      {
+        "question": "A/an _______ is a unit of any composition comprising a collection of related sentences dealing with a single topic.",
+        "options": [
+          "Paragraph",
+          "Essay",
+          "Sentence",
+          "Text"
+        ],
+        "selected": "Paragraph",
+        "answer": "Paragraph",
+        "correct": true
+      },
+      {
+        "question": "Mr. Dokunboh thanked the lady. 'The lady' is the __________.",
+        "options": [
+          "Subject of the verb",
+          "Object complement",
+          "Indirect object of the verb",
+          "Direct object of the verb"
+        ],
+        "selected": "Direct object of the verb",
+        "answer": "Direct object of the verb",
+        "correct": true
+      }
+    ],
+    "timestamp": "2026-03-03T23:27:58.815263"
+  },
+  {
+    "name": "Atode Excellence",
+    "subject": "mathematics",
+    "score": 0,
+    "total": 60,
+    "percentage": 0.0,
+    "indices": [
+      22,
+      55,
+      2,
+      33,
+      43,
+      13,
+      52,
+      50,
+      5,
+      4,
+      21,
+      16,
+      37,
+      53,
+      29,
+      66,
+      42,
+      12,
+      36,
+      9,
+      20,
+      26,
+      54,
+      61,
+      49,
+      7,
+      45,
+      35,
+      34,
+      60,
+      40,
+      23,
+      14,
+      62,
+      8,
+      0,
+      18,
+      15,
+      3,
+      31,
+      28,
+      19,
+      30,
+      59,
+      64,
+      6,
+      24,
+      39,
+      51,
+      56,
+      47,
+      10,
+      17,
+      65,
+      58,
+      46,
+      41,
+      63,
+      1,
+      57
+    ],
+    "answers": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "29 + 20i",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "details": [
+      {
+        "question": "If $A \\subset B$, then the intersection $A \\cap B$ is equal to",
+        "options": [
+          "$A$",
+          "$B$",
+          "$\\emptyset$",
+          "$U$"
+        ],
+        "selected": null,
+        "answer": "$A$",
+        "correct": false
+      },
+      {
+        "question": "The exact value of $\\cos 35^{\\circ} \\cos 25^{\\circ} - \\sin 35^{\\circ} \\sin 25^{\\circ}$ is:",
+        "options": [
+          "$\\frac{1}{2}$",
+          "$\\sqrt{3}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{\\sqrt{3}}{2}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{1}{2}$",
+        "correct": false
+      },
+      {
+        "question": "The simplified form of the complex expression $\\frac{3 + 4i}{1 - 2i}$ is",
+        "options": [
+          "-1 + 2i",
+          "1 + 2i",
+          "-1 - 2i",
+          "2 + i"
+        ],
+        "selected": null,
+        "answer": "-1 + 2i",
+        "correct": false
+      },
+      {
+        "question": "Simplify $\\sqrt{48} - \\sqrt{12}$",
+        "options": [
+          "$2\\sqrt{3}$",
+          "$4\\sqrt{3}$",
+          "6",
+          "$3\\sqrt{2}$"
+        ],
+        "selected": null,
+        "answer": "$2\\sqrt{3}$",
+        "correct": false
+      },
+      {
+        "question": "Given that $z_{1} = i$ and $z_{2} = 1 - i$, find $\\frac{z_{1}}{z_{2}}$",
+        "options": [
+          "$\\frac{1}{2}(i - 1)$",
+          "$(i + 1)$",
+          "$\\frac{(1 + i)}{2}$",
+          "$(i - 1)$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{1}{2}(i - 1)$",
+        "correct": false
+      },
+      {
+        "question": "The value of $\\frac{\\sin 150^\\circ - 5 \\cos 300^\\circ + 7 \\tan 225^\\circ}{\\tan 135^\\circ + 3 \\sin 210^\\circ}$ is",
+        "options": [
+          "1",
+          "-1",
+          "2",
+          "-2"
+        ],
+        "selected": null,
+        "answer": "-2",
+        "correct": false
+      },
+      {
+        "question": "The sum $1^{3} + 2^{3} + ... + n^{3}$ is?",
+        "options": [
+          "$\\frac{n(n + 1)}{2}$",
+          "$(\\frac{n + 1}{2})^{2}$",
+          "$\\frac{n^{2}(n + 1)^{2}}{4}$",
+          "$(\\frac{n(n - 1)}{2})^{2}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{n^{2}(n + 1)^{2}}{4}$",
+        "correct": false
+      },
+      {
+        "question": "Find the equation of the normal to the circle $x^{2} + y^{2} + 3x - 2y = 0$ at the point (3, 2).",
+        "options": [
+          "$2x - 9y + 12 = 0$",
+          "$9x - 2y + 12 = 0$",
+          "$2x - 3y = 6$",
+          "$9x + 2y = 3$"
+        ],
+        "selected": null,
+        "answer": "$2x - 9y + 12 = 0$",
+        "correct": false
+      },
+      {
+        "question": "The expression $\\sqrt{7 + 4\\sqrt{3}}$ is equivalent to",
+        "options": [
+          "2 + \\sqrt{3}",
+          "2 - \\sqrt{3}",
+          "3 + \\sqrt{2}",
+          "4 + \\sqrt{3}"
+        ],
+        "selected": null,
+        "answer": "2 + \\sqrt{3}",
+        "correct": false
+      },
+      {
+        "question": "The value of $x$ that satisfies $9^{x-1} = 27^{x+2}$ is",
+        "options": [
+          "-8",
+          "8",
+          "-4",
+          "4"
+        ],
+        "selected": null,
+        "answer": "-8",
+        "correct": false
+      },
+      {
+        "question": "If $f(x) = 2x + 1$ and $g(x) = x^2 - 2$, find the composite value $g(f(-2))$",
+        "options": [
+          "7",
+          "11",
+          "9",
+          "-5"
+        ],
+        "selected": null,
+        "answer": "7",
+        "correct": false
+      },
+      {
+        "question": "If the roots of $ax^2 + bx + c = 0$ are reciprocal to each other, then which condition is true?",
+        "options": [
+          "$a = b$",
+          "$a = c$",
+          "$b = c$",
+          "$a + b + c = 0$"
+        ],
+        "selected": null,
+        "answer": "$a = c$",
+        "correct": false
+      },
+      {
+        "question": "Find the sum of the first 5 terms of the AP: 2, 4, 6...",
+        "options": [
+          "30",
+          "20",
+          "25",
+          "40"
+        ],
+        "selected": null,
+        "answer": "30",
+        "correct": false
+      },
+      {
+        "question": "In a class of 34 students, 24 are good in English while 15 are good in Mathematics. How many of them are good in both subjects?",
+        "options": [
+          "39",
+          "5",
+          "35",
+          "9"
+        ],
+        "selected": null,
+        "answer": "5",
+        "correct": false
+      },
+      {
+        "question": "Simplify $\\frac{2^{n+4} - 2(2^n)}{2(2^{n+3})}$",
+        "options": [
+          "7/8",
+          "1/2",
+          "1/4",
+          "1"
+        ],
+        "selected": null,
+        "answer": "7/8",
+        "correct": false
+      },
+      {
+        "question": "Find the fifth term of the sequence given that $a_{1}=2$, $a_{2}=7$ and $a_{k+2}=5a_{k+1}-3a_{k}$.",
+        "options": [
+          "535",
+          "536",
+          "537",
+          "538"
+        ],
+        "selected": null,
+        "answer": "535",
+        "correct": false
+      },
+      {
+        "question": "The $y$-intercept of $y = x^2 + 5x + 6$ is",
+        "options": [
+          "6",
+          "5",
+          "0",
+          "-6"
+        ],
+        "selected": null,
+        "answer": "6",
+        "correct": false
+      },
+      {
+        "question": "The coordinates of the vertex of the parabola $y = 2x^2 - 8x + 5$ are",
+        "options": [
+          "(2, -3)",
+          "(-2, 3)",
+          "(2, 3)",
+          "(-2, -3)"
+        ],
+        "selected": null,
+        "answer": "(2, -3)",
+        "correct": false
+      },
+      {
+        "question": "The value of $\\sin^2 30^\\circ + \\cos^2 30^\\circ$ is",
+        "options": [
+          "1",
+          "0.5",
+          "0.25",
+          "2"
+        ],
+        "selected": null,
+        "answer": "1",
+        "correct": false
+      },
+      {
+        "question": "In a Geometric Progression, if the first term is 5 and the common ratio is 2, the sum of the first 6 terms is",
+        "options": [
+          "315",
+          "310",
+          "160",
+          "630"
+        ],
+        "selected": null,
+        "answer": "315",
+        "correct": false
+      },
+      {
+        "question": "The length of the diameter of the circle $x^2 + y^2 - 4x + 6y - 3 = 0$ is",
+        "options": [
+          "4",
+          "8",
+          "16",
+          "2"
+        ],
+        "selected": null,
+        "answer": "8",
+        "correct": false
+      },
+      {
+        "question": "The product of $(2 + 5i)$ and its conjugate is",
+        "options": [
+          "29",
+          "21",
+          "29 + 20i",
+          "-21"
+        ],
+        "selected": "29 + 20i",
+        "answer": "29",
+        "correct": false
+      },
+      {
+        "question": "Simplify $\\frac{9x^{2} + 6x - 3}{9x^{2} - 9}$",
+        "options": [
+          "$\\frac{3x - 1}{3(x - 1)}$",
+          "$\\frac{6x - 1}{3(2x - 1)}$",
+          "$\\frac{2x - 1}{5(x - 1)}$",
+          "$\\frac{2x - 1}{9(3x - 1)}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{3x - 1}{3(x - 1)}$",
+        "correct": false
+      },
+      {
+        "question": "If $z_{1}=2+i$ and $z_{2}=1+3i$, then $Re(z_{1}z_{2})$ is",
+        "options": [
+          "1",
+          "7i",
+          "i",
+          "-1"
+        ],
+        "selected": null,
+        "answer": "-1",
+        "correct": false
+      },
+      {
+        "question": "Which of the following is a necessary step for proving $1 + 3 + 5 + ... + (2n - 1) = n^{2}$?",
+        "options": [
+          "Verify for $n = k$",
+          "Assume $1 + 3 + ... + k$ is true and prove for $P(k + 1)$",
+          "Prove that $n = 1$ is true",
+          "Prove that $1 + 3 + ... + 2k + 1 = (n + 1)^{2}$"
+        ],
+        "selected": null,
+        "answer": "Assume $1 + 3 + ... + k$ is true and prove for $P(k + 1)$",
+        "correct": false
+      },
+      {
+        "question": "The equation of the tangent to the circle $x^2 + y^2 = 25$ at the point $(3, -4)$ is",
+        "options": [
+          "3x - 4y = 25",
+          "3x + 4y = 25",
+          "4x - 3y = 25",
+          "4x + 3y = 25"
+        ],
+        "selected": null,
+        "answer": "3x - 4y = 25",
+        "correct": false
+      },
+      {
+        "question": "If p and q are integers and is represented in the form of $p/q$, then it is a:",
+        "options": [
+          "Whole number",
+          "Rational number",
+          "Natural number",
+          "Even number"
+        ],
+        "selected": null,
+        "answer": "Rational number",
+        "correct": false
+      },
+      {
+        "question": "The radius of the circle $x^2 + y^2 = 49$ is",
+        "options": [
+          "7",
+          "49",
+          "14",
+          "24.5"
+        ],
+        "selected": null,
+        "answer": "7",
+        "correct": false
+      },
+      {
+        "question": "If $\\log_2 x = 5$, find $x$.",
+        "options": [
+          "32",
+          "10",
+          "25",
+          "64"
+        ],
+        "selected": null,
+        "answer": "32",
+        "correct": false
+      },
+      {
+        "question": "The triangle formed by the vertices of the points $(-2,8)$, (3,20) and (11,8) is a/an",
+        "options": [
+          "scalene",
+          "right angled",
+          "isosceles",
+          "equilateral"
+        ],
+        "selected": null,
+        "answer": "isosceles",
+        "correct": false
+      },
+      {
+        "question": "The number of subsets of a set with 3 elements is",
+        "options": [
+          "8",
+          "6",
+          "9",
+          "3"
+        ],
+        "selected": null,
+        "answer": "8",
+        "correct": false
+      },
+      {
+        "question": "The coefficient of $x^3$ in the expansion of $(1 - 2x)^5$ is",
+        "options": [
+          "-80",
+          "80",
+          "-40",
+          "40"
+        ],
+        "selected": null,
+        "answer": "-80",
+        "correct": false
+      },
+      {
+        "question": "If $z = \\frac{1 + i\\sqrt{3}}{1 - i\\sqrt{3}}$, the argument of $z$ in radians is",
+        "options": [
+          "$\\frac{\\pi}{3}$",
+          "$\\frac{2\\pi}{3}$",
+          "$\\pi$",
+          "$\\frac{\\pi}{6}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{2\\pi}{3}$",
+        "correct": false
+      },
+      {
+        "question": "The sum of the constant coefficients in the expansion of $(1-x)^{10}$ is",
+        "options": [
+          "1024",
+          "900",
+          "0",
+          "$10^{10}$"
+        ],
+        "selected": null,
+        "answer": "0",
+        "correct": false
+      },
+      {
+        "question": "The coefficient of $x^4$ in the expansion of $(1 + 2x)^6$ is",
+        "options": [
+          "240",
+          "15",
+          "60",
+          "160"
+        ],
+        "selected": null,
+        "answer": "240",
+        "correct": false
+      },
+      {
+        "question": "The value of $\\frac{\\sin 150 - 5 \\cos 300 + 7 \\tan 225}{\\tan 135 + 3 \\sin 210}$ is",
+        "options": [
+          "1",
+          "-1",
+          "2",
+          "-2"
+        ],
+        "selected": null,
+        "answer": "-2",
+        "correct": false
+      },
+      {
+        "question": "Simplify the expression $\\frac{1}{\\sqrt{3} + \\sqrt{2}} + \\frac{1}{\\sqrt{3} - \\sqrt{2}}$",
+        "options": [
+          "$2\\sqrt{3}$",
+          "$2\\sqrt{2}$",
+          "$\\sqrt{6}$",
+          "0"
+        ],
+        "selected": null,
+        "answer": "$2\\sqrt{3}$",
+        "correct": false
+      },
+      {
+        "question": "The value of $x$ satisfying $\\log_2(\\log_3 x) = 1$ is",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "8"
+        ],
+        "selected": null,
+        "answer": "9",
+        "correct": false
+      },
+      {
+        "question": "If the roots of $x^2 - px + q = 0$ are consecutive integers, then $p^2 - 4q$ is equal to",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "selected": null,
+        "answer": "1",
+        "correct": false
+      },
+      {
+        "question": "The sum to infinity of a Geometric Progression with first term 12 and common ratio $1/3$ is",
+        "options": [
+          "18",
+          "24",
+          "36",
+          "12"
+        ],
+        "selected": null,
+        "answer": "18",
+        "correct": false
+      },
+      {
+        "question": "Rationalize the denominator of $\\frac{2}{\\sqrt{5} - \\sqrt{3}}$",
+        "options": [
+          "$\\sqrt{5} + \\sqrt{3}$",
+          "$\\sqrt{5} - \\sqrt{3}$",
+          "$2(\\sqrt{5} + \\sqrt{3})$",
+          "$\\frac{\\sqrt{5} + \\sqrt{3}}{2}$"
+        ],
+        "selected": null,
+        "answer": "$\\sqrt{5} + \\sqrt{3}$",
+        "correct": false
+      },
+      {
+        "question": "The gradient of the line passing through the point $(1, 2)$ and the midpoint of $(2, 3)$ and $(4, 7)$ is",
+        "options": [
+          "3",
+          "1.5",
+          "2",
+          "1"
+        ],
+        "selected": null,
+        "answer": "3",
+        "correct": false
+      },
+      {
+        "question": "If $\\log 2 + \\log(x+3) = \\log(3x+5)$, then $x$ is",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "selected": null,
+        "answer": "1",
+        "correct": false
+      },
+      {
+        "question": "Which of the following identities is not correct?",
+        "options": [
+          "$sin^{2}\\alpha=\\frac{(1-sin~2\\alpha)}{2}$",
+          "$sin^{2}\\alpha=\\frac{(1-cos2\\alpha)}{2}$",
+          "$cos^{2}\\alpha=\\frac{(1+cos2\\alpha)}{2}$",
+          "$sin2\\alpha=2sin\\alpha\\times cos\\alpha$"
+        ],
+        "selected": null,
+        "answer": "$sin^{2}\\alpha=\\frac{(1-sin~2\\alpha)}{2}$",
+        "correct": false
+      },
+      {
+        "question": "If a, b, and c are in G.P. and $a^{x}=b^{y}=c^{z}$, find $\\frac{1}{x}+\\frac{1}{z}$ in terms of y.",
+        "options": [
+          "$\\frac{y}{4}$",
+          "$\\frac{2}{y}$",
+          "$\\frac{y}{2}$",
+          "$\\frac{2}{\\pi}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{2}{y}$",
+        "correct": false
+      },
+      {
+        "question": "The distance between the parallel lines $3x - 4y + 7 = 0$ and $3x - 4y - 3 = 0$ is",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "selected": null,
+        "answer": "2",
+        "correct": false
+      },
+      {
+        "question": "The sum of the first $n$ terms of an AP is $3n^2 + n$. The common difference is",
+        "options": [
+          "3",
+          "6",
+          "2",
+          "4"
+        ],
+        "selected": null,
+        "answer": "6",
+        "correct": false
+      },
+      {
+        "question": "If $f(x) = 3x - 1$, find $f(2)$.",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "4"
+        ],
+        "selected": null,
+        "answer": "5",
+        "correct": false
+      },
+      {
+        "question": "What is the sum of the coefficients in the binomial expansion of $(x - y)^{n}$?",
+        "options": [
+          "n",
+          "1",
+          "0",
+          "-n"
+        ],
+        "selected": null,
+        "answer": "0",
+        "correct": false
+      },
+      {
+        "question": "Which set is the subset of all given sets?",
+        "options": [
+          "{1,2,3}",
+          "{1}",
+          "{0,1,6,7}",
+          "\u00d8"
+        ],
+        "selected": null,
+        "answer": "\u00d8",
+        "correct": false
+      },
+      {
+        "question": "Find the coefficient of x in the binomial expansion of $(1 - 2x)^{7}$",
+        "options": [
+          "-332",
+          "28",
+          "560",
+          "-56"
+        ],
+        "selected": null,
+        "answer": "-56",
+        "correct": false
+      },
+      {
+        "question": "If $f(x) = \\frac{x-1}{x+1}$, then $f(f(x))$ is equal to",
+        "options": [
+          "x",
+          "1/x",
+          "-1/x",
+          "-x"
+        ],
+        "selected": null,
+        "answer": "-1/x",
+        "correct": false
+      },
+      {
+        "question": "Solve for $x$ if $3^{2x+1} - 10(3^x) + 3 = 0$",
+        "options": [
+          "1, -1",
+          "1, 0",
+          "0, -1",
+          "3, 1/3"
+        ],
+        "selected": null,
+        "answer": "1, -1",
+        "correct": false
+      },
+      {
+        "question": "Which of the following is incorrect regarding the real number system?",
+        "options": [
+          "Rational numbers can always be expressed by using terminating decimals or repeating decimals.",
+          "Rational numbers can be written as quotient of two integers.",
+          "Rational numbers are any numbers that can be expressed in the form of $\\frac{a}{b}$, where a and b are integers.",
+          "The real number system is not made up of a set of rational and irrational numbers."
+        ],
+        "selected": null,
+        "answer": "The real number system is not made up of a set of rational and irrational numbers.",
+        "correct": false
+      },
+      {
+        "question": "The sum of n terms of a certain series is $S_{n}=4^{n}-1$ for all values of n. Find the average of the first three terms of the series.",
+        "options": [
+          "20",
+          "21",
+          "22",
+          "23"
+        ],
+        "selected": null,
+        "answer": "21",
+        "correct": false
+      },
+      {
+        "question": "For some integer n, the odd integer is represented in the form of:",
+        "options": [
+          "n",
+          "$n + 1$",
+          "$2n + 1$",
+          "2n"
+        ],
+        "selected": null,
+        "answer": "$2n + 1$",
+        "correct": false
+      },
+      {
+        "question": "Evaluate $8^{2/3}$",
+        "options": [
+          "4",
+          "2",
+          "16",
+          "6"
+        ],
+        "selected": null,
+        "answer": "4",
+        "correct": false
+      },
+      {
+        "question": "If $x^{2}-2ax+a^{2}=0$, find the value of $\\frac{x}{a}$.",
+        "options": [
+          "-1",
+          "1",
+          "3",
+          "2"
+        ],
+        "selected": null,
+        "answer": "1",
+        "correct": false
+      },
+      {
+        "question": "If $\\log_{10} 2 = 0.3010$ and $\\log_{10} 3 = 0.4771$, the value of $\\log_{10} 12$ is",
+        "options": [
+          "0.7781",
+          "1.0791",
+          "1.1091",
+          "0.9030"
+        ],
+        "selected": null,
+        "answer": "1.0791",
+        "correct": false
+      },
+      {
+        "question": "A circle whose diameter touches the circumference at the points (-3, 6) and (5, 4) is represented by the equation ...............",
+        "options": [
+          "$x^{2}+y^{2}+3x-2y+2=0$",
+          "$x^{2}+y^{2}-3x+4y+2=0$",
+          "$x^{2}+y^{2}-2x-10y+9=0$",
+          "$4x^{2}+4y^{2}-12x-20y+9=0$"
+        ],
+        "selected": null,
+        "answer": "$x^{2}+y^{2}-2x-10y+9=0$",
+        "correct": false
+      }
+    ],
+    "timestamp": "2026-03-05T06:05:29.878061"
+  },
+  {
+    "name": "Atode Excellence",
+    "subject": "Mathematics",
+    "score": 3,
+    "total": 60,
+    "percentage": 5.0,
+    "indices": [
+      63,
+      46,
+      104,
+      94,
+      165,
+      10,
+      148,
+      95,
+      120,
+      7,
+      153,
+      255,
+      135,
+      119,
+      144,
+      167,
+      225,
+      87,
+      100,
+      21,
+      50,
+      188,
+      181,
+      226,
+      211,
+      197,
+      81,
+      69,
+      129,
+      246,
+      2,
+      65,
+      169,
+      231,
+      210,
+      180,
+      212,
+      78,
+      58,
+      194,
+      110,
+      230,
+      239,
+      52,
+      142,
+      114,
+      190,
+      202,
+      217,
+      256,
+      253,
+      102,
+      128,
+      215,
+      97,
+      245,
+      88,
+      16,
+      126,
+      145
+    ],
+    "answers": [
+      "$2x^2 + y^2 - 3x + y = 0$",
+      "495\u00b0",
+      "1",
+      "5",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "details": [
+      {
+        "question": "Which of the following equations does NOT represent a circle?",
+        "options": [
+          "$3x^2 + 3y^2 - 2y = 0$",
+          "$x^2 + y^2 - 4x + 6y + 13 = 0$",
+          "$x^2 + y^2 = 25$",
+          "$2x^2 + y^2 - 3x + y = 0$"
+        ],
+        "selected": "$2x^2 + y^2 - 3x + y = 0$",
+        "answer": "$2x^2 + y^2 - 3x + y = 0$",
+        "correct": true
+      },
+      {
+        "question": "Convert $\\frac{11}{4}\\pi$ to degrees",
+        "options": [
+          "360\u00b0",
+          "405\u00b0",
+          "495\u00b0",
+          "450\u00b0"
+        ],
+        "selected": "495\u00b0",
+        "answer": "495\u00b0",
+        "correct": true
+      },
+      {
+        "question": "The fifth term in the fifth level of Pascal's triangle is",
+        "options": [
+          "6",
+          "1",
+          "10",
+          "5"
+        ],
+        "selected": "1",
+        "answer": "5",
+        "correct": false
+      },
+      {
+        "question": "Find the length of a line segment formed by the points A(1, 2) and B(4, 6).",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "selected": "5",
+        "answer": "5",
+        "correct": true
+      },
+      {
+        "question": "If $A = 3 - 2i$ and $B = 1 + 2i$, find the modulus of $\\frac{A}{B}$.",
+        "options": [
+          "$\\frac{\\sqrt{74}}{2}$",
+          "$\\frac{7}{2}$",
+          "$\\sqrt{\\frac{13}{5}}$",
+          "$\\frac{13}{5}$"
+        ],
+        "selected": null,
+        "answer": "$\\sqrt{\\frac{13}{5}}$",
+        "correct": false
+      },
+      {
+        "question": "Find the coordinates of the point P which divides the interval A(\u22123,\u22127), B(\u22121,\u22124) externally in the ratio 4:3.",
+        "options": [
+          "(5, 5)",
+          "(2, 4)",
+          "(\u22123, \u22127)",
+          "(\u22127, 11)"
+        ],
+        "selected": null,
+        "answer": "(5, 5)",
+        "correct": false
+      },
+      {
+        "question": "A G.P. has a common ratio of 2. Find the value of n for which the sum of 2n terms is 33 times the sum of the first n terms.",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "selected": null,
+        "answer": "5",
+        "correct": false
+      },
+      {
+        "question": "Simplify $\\left(\\frac{x^{1/2} + x^{-1/2}}{x^{1/2} - x^{-1/2}}\\right)^2$.",
+        "options": [
+          "$\\frac{(x+1)^2}{(x-1)^2}$",
+          "$\\frac{x+1}{x-1}$",
+          "$\\frac{x^2+1}{x^2-1}$",
+          "$x$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{(x+1)^2}{(x-1)^2}$",
+        "correct": false
+      },
+      {
+        "question": "Find the fourth term of the sequence given that $a_1 = 5$ and $a_{n+1} = 5a_n - 2$.",
+        "options": [
+          "73",
+          "313",
+          "1563",
+          "23"
+        ],
+        "selected": null,
+        "answer": "313",
+        "correct": false
+      },
+      {
+        "question": "The triangle formed by the vertices of the points (\u22122, 8), (3, 20) and (11, 8) is a/an",
+        "options": [
+          "scalene",
+          "right angled",
+          "isosceles",
+          "equilateral"
+        ],
+        "selected": null,
+        "answer": "isosceles",
+        "correct": false
+      },
+      {
+        "question": "The radius of the circle $x^2 + y^2 + 6x - 4y - 3 = 0$ is",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "selected": null,
+        "answer": "4",
+        "correct": false
+      },
+      {
+        "question": "The sum of n terms of a certain series is $S_{n}=4^{n}-1$ for all values of n. Find the average of the first three terms of the series.",
+        "options": [
+          "20",
+          "21",
+          "22",
+          "23"
+        ],
+        "selected": null,
+        "answer": "21",
+        "correct": false
+      },
+      {
+        "question": "If 63% of persons like banana and 76% like apple, what can be said about the percentage of persons who like both banana and apple?",
+        "options": [
+          "At least 24%",
+          "At least 39%",
+          "At most 63%",
+          "Exactly 50%"
+        ],
+        "selected": null,
+        "answer": "At least 39%",
+        "correct": false
+      },
+      {
+        "question": "Evaluate $\\sum_{k=1}^{n} \\frac{1}{k(k+1)}$",
+        "options": [
+          "$\\frac{n}{n+1}$",
+          "$\\frac{2n-1}{n}$",
+          "$\\frac{2n-1}{1}$",
+          "$\\frac{1}{n+1}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{n}{n+1}$",
+        "correct": false
+      },
+      {
+        "question": "In a group of 300 people, 150 can speak French and 200 can speak German. How many can speak both French and German?",
+        "options": [
+          "20",
+          "50",
+          "40",
+          "None of these"
+        ],
+        "selected": null,
+        "answer": "50",
+        "correct": false
+      },
+      {
+        "question": "The equation of the normal to the circle $2x^2 + 2y^2 - 4x + 4y = 12$ at the point (\u22121, 1) is",
+        "options": [
+          "$x + y - 1 = 0$",
+          "$x - y + 2 = 0$",
+          "$x + y + 1 = 0$",
+          "$x - y - 2 = 0$"
+        ],
+        "selected": null,
+        "answer": "$x + y + 1 = 0$",
+        "correct": false
+      },
+      {
+        "question": "Rationalize the denominator of $\\frac{2}{\\sqrt{5} - \\sqrt{3}}$",
+        "options": [
+          "$\\sqrt{5} + \\sqrt{3}$",
+          "$\\sqrt{5} - \\sqrt{3}$",
+          "$2(\\sqrt{5} + \\sqrt{3})$",
+          "$\\frac{\\sqrt{5} + \\sqrt{3}}{2}$"
+        ],
+        "selected": null,
+        "answer": "$\\sqrt{5} + \\sqrt{3}$",
+        "correct": false
+      },
+      {
+        "question": "Evaluate $\\sum_{k=1}^{6} \\frac{5}{k}$",
+        "options": [
+          "$\\frac{49}{20}$",
+          "$\\frac{49}{10}$",
+          "$\\frac{29}{20}$",
+          "$\\frac{29}{10}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{49}{20}$",
+        "correct": false
+      },
+      {
+        "question": "Simplify $\\sin^4\\theta - \\cos^4\\theta$",
+        "options": [
+          "$\\sin^2\\theta + \\cos^2\\theta$",
+          "$\\sin^2\\theta - \\cos^2\\theta$",
+          "$1$",
+          "$0$"
+        ],
+        "selected": null,
+        "answer": "$\\sin^2\\theta - \\cos^2\\theta$",
+        "correct": false
+      },
+      {
+        "question": "If $z_1 = 2 + 7i$, $z_2 = 1 + 3i$, then $\\text{Re}(z_1 \\overline{z_2})$ is",
+        "options": [
+          "1",
+          "7i",
+          "8",
+          "-1"
+        ],
+        "selected": null,
+        "answer": "23",
+        "correct": false
+      },
+      {
+        "question": "A circle whose diameter touches the circumference at the points (\u22123,6) and (5,4) is represented by the equation",
+        "options": [
+          "x\u00b2 + y\u00b2 + 3x \u2212 2y + 2 = 0",
+          "x\u00b2 + y\u00b2 \u2212 3x + 4y + 2 = 0",
+          "x\u00b2 + y\u00b2 \u2212 2x \u2212 10y + 9 = 0",
+          "4x\u00b2 + 4y\u00b2 \u2212 12x \u2212 20y + 9 = 0"
+        ],
+        "selected": null,
+        "answer": "x\u00b2 + y\u00b2 \u2212 2x \u2212 10y + 9 = 0",
+        "correct": false
+      },
+      {
+        "question": "Evaluate $\\sum_{k=1}^{6} \\frac{5}{k}$",
+        "options": [
+          "$\\frac{49}{20}$",
+          "$\\frac{49}{10}$",
+          "$\\frac{29}{20}$",
+          "$\\frac{29}{10}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{49}{20}$",
+        "correct": false
+      },
+      {
+        "question": "One of the roots of the equation $x^2 + kx + 15 = 0$ is 3. Find the value of k and the other root.",
+        "options": [
+          "1, 5",
+          "2, 5",
+          "5, 2",
+          "4, 2"
+        ],
+        "selected": null,
+        "answer": "2, 5",
+        "correct": false
+      },
+      {
+        "question": "Simplify $\\frac{2^{n+4} - 2(2^n)}{2(2^{n+3})}$",
+        "options": [
+          "7/8",
+          "1/2",
+          "1/4",
+          "1"
+        ],
+        "selected": null,
+        "answer": "7/8",
+        "correct": false
+      },
+      {
+        "question": "If $z = \\frac{1 + i\\sqrt{3}}{1 - i\\sqrt{3}}$, the argument of $z$ in radians is",
+        "options": [
+          "$\\frac{\\pi}{3}$",
+          "$\\frac{2\\pi}{3}$",
+          "$\\pi$",
+          "$\\frac{\\pi}{6}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{2\\pi}{3}$",
+        "correct": false
+      },
+      {
+        "question": "The value of $\\frac{\\sin 150 - 5 \\cos 300 + 7 \\tan 225}{\\tan 135 + 3 \\sin 210}$ is",
+        "options": [
+          "1",
+          "-1",
+          "2",
+          "-2"
+        ],
+        "selected": null,
+        "answer": "-2",
+        "correct": false
+      },
+      {
+        "question": "A G.P. has a common ratio of 2. Find the value of n for which the sum of 2n terms is 33 times the sum of the first n terms.",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "selected": null,
+        "answer": "5",
+        "correct": false
+      },
+      {
+        "question": "Find the fourth term of the sequence given that $a_1 = 3$ and $a_{n+1} = 3a_n - 2$.",
+        "options": [
+          "19",
+          "55",
+          "25",
+          "37"
+        ],
+        "selected": null,
+        "answer": "55",
+        "correct": false
+      },
+      {
+        "question": "If $\\alpha$ and $\\beta$ are roots of $2x^2 + 3x - 7 = 0$, find the value of $\\frac{\\beta}{\\alpha} + \\frac{\\alpha}{\\beta}$.",
+        "options": [
+          "$\\frac{2}{7}$",
+          "$\\frac{37}{14}$",
+          "$-\\frac{37}{14}$",
+          "$\\frac{5}{7}$"
+        ],
+        "selected": null,
+        "answer": "$-\\frac{37}{14}$",
+        "correct": false
+      },
+      {
+        "question": "Which of the following is a necessary step for proving $1 + 3 + 5 + ... + (2n - 1) = n^{2}$?",
+        "options": [
+          "Verify for $n = k$",
+          "Assume $1 + 3 + ... + k$ is true and prove for $P(k + 1)$",
+          "Prove that $n = 1$ is true",
+          "Prove that $1 + 3 + ... + 2k + 1 = (n + 1)^{2}$"
+        ],
+        "selected": null,
+        "answer": "Assume $1 + 3 + ... + k$ is true and prove for $P(k + 1)$",
+        "correct": false
+      },
+      {
+        "question": "The sum of n terms of a certain series is $S_n = 4^n - 1$ for all values of n. Find the average of the first three terms of the series.",
+        "options": [
+          "20",
+          "19",
+          "21",
+          "18"
+        ],
+        "selected": null,
+        "answer": "21",
+        "correct": false
+      },
+      {
+        "question": "The sets A and B have 6 and 9 elements respectively, such that A is a proper subset of B. The total number of elements of A union B is",
+        "options": [
+          "6",
+          "9",
+          "15",
+          "3"
+        ],
+        "selected": null,
+        "answer": "9",
+        "correct": false
+      },
+      {
+        "question": "If 63% of persons like banana and 76% like apple, what can be said about the percentage of persons who like both banana and apple?",
+        "options": [
+          "At least 24%",
+          "At least 39%",
+          "At most 63%",
+          "Exactly 50%"
+        ],
+        "selected": null,
+        "answer": "At least 39%",
+        "correct": false
+      },
+      {
+        "question": "If $\\log_2 x = 5$, find $x$.",
+        "options": [
+          "32",
+          "10",
+          "25",
+          "64"
+        ],
+        "selected": null,
+        "answer": "32",
+        "correct": false
+      },
+      {
+        "question": "The value of $\\frac{\\sin 150^\\circ - 5 \\cos 300^\\circ + 7 \\tan 225^\\circ}{\\tan 135^\\circ + 3 \\sin 210^\\circ}$ is",
+        "options": [
+          "1",
+          "-1",
+          "2",
+          "-2"
+        ],
+        "selected": null,
+        "answer": "-2",
+        "correct": false
+      },
+      {
+        "question": "The second term of a G.P. is 24 and the sum to infinity is 100. Find the two possible values of the first term and common ratio in the form $(a_1, r_1)$ and $(a_2, r_2)$.",
+        "options": [
+          "$(4, 2)$ or $(8, 2)$",
+          "$(2, 2)$ or $(60, \\frac{1}{2})$",
+          "$(20, 2)$ or $(30, \\frac{1}{2})$",
+          "$(40, \\frac{3}{5})$ or $(60, \\frac{2}{5})$"
+        ],
+        "selected": null,
+        "answer": "$(40, \\frac{3}{5})$ or $(60, \\frac{2}{5})$",
+        "correct": false
+      },
+      {
+        "question": "The value of $x$ satisfying $\\log_2(\\log_3 x) = 1$ is",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "8"
+        ],
+        "selected": null,
+        "answer": "9",
+        "correct": false
+      },
+      {
+        "question": "The second term of a G.P. is 24 and the fifth term is 81. Find the seventh term.",
+        "options": [
+          "$\\frac{729}{4}$",
+          "$\\frac{243}{2}$",
+          "$\\frac{729}{2}$",
+          "$\\frac{81}{4}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{729}{4}$",
+        "correct": false
+      },
+      {
+        "question": "The sum of the constant coefficients in the expansion of $(1 - x)^{10}$ is",
+        "options": [
+          "1024",
+          "900",
+          "0",
+          "$10^{10}$"
+        ],
+        "selected": null,
+        "answer": "0",
+        "correct": false
+      },
+      {
+        "question": "Find the value of x and y respectively for which the complex equation holds: $(x + iy) = 7 + 9i$",
+        "options": [
+          "(7, 9)",
+          "(9, 7)",
+          "(\u22127, 9)",
+          "(7, \u22129)"
+        ],
+        "selected": null,
+        "answer": "(7, 9)",
+        "correct": false
+      },
+      {
+        "question": "Find the values of x and y in the equation $x(1+i)^2 + y(2-i)^2 = 3 + 10i,\\ x, y \\in \\mathbb{R}$",
+        "options": [
+          "$x = 7,\\ y = 1$",
+          "$x = -7,\\ y = -1$",
+          "$x = 1,\\ y = 7$",
+          "$x = -7,\\ y = 1$"
+        ],
+        "selected": null,
+        "answer": "$x = 1,\\ y = 7$",
+        "correct": false
+      },
+      {
+        "question": "Simplify $\\sqrt{48} - \\sqrt{12}$",
+        "options": [
+          "$2\\sqrt{3}$",
+          "$4\\sqrt{3}$",
+          "6",
+          "$3\\sqrt{2}$"
+        ],
+        "selected": null,
+        "answer": "$2\\sqrt{3}$",
+        "correct": false
+      },
+      {
+        "question": "The $y$-intercept of $y = x^2 + 5x + 6$ is",
+        "options": [
+          "6",
+          "5",
+          "0",
+          "-6"
+        ],
+        "selected": null,
+        "answer": "6",
+        "correct": false
+      },
+      {
+        "question": "Which of the following identities is NOT correct?",
+        "options": [
+          "$\\sin^2 a = \\frac{1 - \\sin 2a}{2}$",
+          "$\\sin^2 a = \\frac{1 - \\cos 2a}{2}$",
+          "$\\cos^2 a = \\frac{1 + \\cos 2a}{2}$",
+          "$\\sin 2a = 2\\sin a \\cos a$"
+        ],
+        "selected": null,
+        "answer": "$\\sin^2 a = \\frac{1 - \\sin 2a}{2}$",
+        "correct": false
+      },
+      {
+        "question": "$\\sin^2\\theta + \\cos^2\\theta = ?$",
+        "options": [
+          "1",
+          "0",
+          "3",
+          "2"
+        ],
+        "selected": null,
+        "answer": "1",
+        "correct": false
+      },
+      {
+        "question": "Find the length of a line segment formed by the points $A(a-b,\\ a+b)$ and $B(a+b,\\ a-b)$.",
+        "options": [
+          "$\\sqrt{(a-b)}$",
+          "$a + b$",
+          "$2ab$",
+          "$2\\sqrt{2}b$"
+        ],
+        "selected": null,
+        "answer": "$2\\sqrt{2}b$",
+        "correct": false
+      },
+      {
+        "question": "Find the value of $\\int_0^2 4e^{4x} dx$",
+        "options": [
+          "$e^8 - 1$",
+          "$e^8 + 1$",
+          "$4(e^8 - 1)$",
+          "$e^8$"
+        ],
+        "selected": null,
+        "answer": "$e^8 - 1$",
+        "correct": false
+      },
+      {
+        "question": "The expression $\\sqrt{7 + 4\\sqrt{3}}$ is equivalent to",
+        "options": [
+          "2 + \\sqrt{3}",
+          "2 - \\sqrt{3}",
+          "3 + \\sqrt{2}",
+          "4 + \\sqrt{3}"
+        ],
+        "selected": null,
+        "answer": "2 + \\sqrt{3}",
+        "correct": false
+      },
+      {
+        "question": "The length of the diameter of the circle $x^2 + y^2 - 4x + 6y - 3 = 0$ is",
+        "options": [
+          "4",
+          "8",
+          "16",
+          "2"
+        ],
+        "selected": null,
+        "answer": "8",
+        "correct": false
+      },
+      {
+        "question": "Which of the following identities is not correct?",
+        "options": [
+          "$sin^{2}\\alpha=\\frac{(1-sin~2\\alpha)}{2}$",
+          "$sin^{2}\\alpha=\\frac{(1-cos2\\alpha)}{2}$",
+          "$cos^{2}\\alpha=\\frac{(1+cos2\\alpha)}{2}$",
+          "$sin2\\alpha=2sin\\alpha\\times cos\\alpha$"
+        ],
+        "selected": null,
+        "answer": "$sin^{2}\\alpha=\\frac{(1-sin~2\\alpha)}{2}$",
+        "correct": false
+      },
+      {
+        "question": "Which set is the subset of all given sets?",
+        "options": [
+          "{1,2,3}",
+          "{1}",
+          "{0,1,6,7}",
+          "\u00d8"
+        ],
+        "selected": null,
+        "answer": "\u00d8",
+        "correct": false
+      },
+      {
+        "question": "Find the value of n if the constant coefficients of the 6th term in the expansion of $\\left(a + \\frac{1}{b}\\right)^n$ are equal.",
+        "options": [
+          "20",
+          "22",
+          "16",
+          "6"
+        ],
+        "selected": null,
+        "answer": "20",
+        "correct": false
+      },
+      {
+        "question": "Given that $z = -3 + 4i$ and $zw = -14 + 2i$. Find the modulus and argument of w.",
+        "options": [
+          "$2\\sqrt{2}, \\frac{\\pi}{4}$",
+          "$4\\sqrt{2}, \\frac{\\pi}{4}$",
+          "$4\\sqrt{2}, 4$",
+          "$2\\sqrt{2}, 4$"
+        ],
+        "selected": null,
+        "answer": "$2\\sqrt{2}, \\frac{\\pi}{4}$",
+        "correct": false
+      },
+      {
+        "question": "Simplify the expression $\\frac{1}{\\sqrt{3} + \\sqrt{2}} + \\frac{1}{\\sqrt{3} - \\sqrt{2}}$",
+        "options": [
+          "$2\\sqrt{3}$",
+          "$2\\sqrt{2}$",
+          "$\\sqrt{6}$",
+          "0"
+        ],
+        "selected": null,
+        "answer": "$2\\sqrt{3}$",
+        "correct": false
+      },
+      {
+        "question": "Simplify $\\frac{45x^7y^3}{(5xy)^{-2}}$",
+        "options": [
+          "$\\frac{9}{81y^{-2}}$",
+          "$\\frac{25}{4y^2}$",
+          "$\\frac{5}{9y^2}$",
+          "$\\frac{25x}{81y^{-2}}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{25x}{81y^{-2}}$",
+        "correct": false
+      },
+      {
+        "question": "For the principle of mathematical induction to be true, what type of number should 'n' be?",
+        "options": [
+          "Rational Number",
+          "Whole Number",
+          "Natural Number",
+          "Integers"
+        ],
+        "selected": null,
+        "answer": "Natural Number",
+        "correct": false
+      },
+      {
+        "question": "Solve for k if $10 - 8k + 2k^2 = 0$.",
+        "options": [
+          "k = 1 or k = 5",
+          "k = 2 or k = 5",
+          "k = \u22121 or k = 5",
+          "k = 1 or k = \u22125"
+        ],
+        "selected": null,
+        "answer": "k = 1 or k = 5",
+        "correct": false
+      },
+      {
+        "question": "Which of the following identities is NOT correct?",
+        "options": [
+          "$\\sin^2 a = \\frac{1 - \\sin 2a}{2}$",
+          "$\\sin^2 a = \\frac{1 - \\cos 2a}{2}$",
+          "$\\cos^2 a = \\frac{1 + \\cos 2a}{2}$",
+          "$\\sin 2a = 2\\sin a \\cos a$"
+        ],
+        "selected": null,
+        "answer": "$\\sin^2 a = \\frac{1 - \\sin 2a}{2}$",
+        "correct": false
+      },
+      {
+        "question": "Find the modulus of $\\frac{A}{B}$ where $A = 3 - 2i$ and $B = 1 + 2i$.",
+        "options": [
+          "$\\sqrt{47}$",
+          "$\\frac{\\sqrt{13}}{\\sqrt{5}}$",
+          "$\\sqrt{74}$",
+          "$\\frac{\\sqrt{4}}{7}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{\\sqrt{13}}{\\sqrt{5}}$",
+        "correct": false
+      },
+      {
+        "question": "The second term of a G.P. is 24 and the fifth term is 81. Find the seventh term.",
+        "options": [
+          "$\\frac{729}{4}$",
+          "$\\frac{243}{2}$",
+          "$\\frac{729}{2}$",
+          "$\\frac{81}{4}$"
+        ],
+        "selected": null,
+        "answer": "$\\frac{729}{4}$",
+        "correct": false
+      }
+    ],
+    "timestamp": "2026-03-05T13:21:05.816909"
   }
 ]

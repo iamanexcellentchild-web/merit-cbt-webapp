@@ -2,60 +2,243 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ title if title else "Student Quiz App" }}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title if title else "CBT Quiz App" }}</title>
+
+    <!-- MathJax for LaTeX rendering -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        options: { skipHtmlTags: ['script','noscript','style','textarea','pre'] }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
+
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f0f2f5;
+            color: #222;
+            min-height: 100vh;
+        }
+
+        /* ── Header ── */
+        header {
+            background: #1a237e;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        header h1 { font-size: 1.2rem; letter-spacing: 0.5px; }
+        header nav { display: flex; align-items: center; gap: 1rem; font-size: 0.9rem; }
+        header nav a { color: #90caf9; text-decoration: none; }
+        header nav a:hover { color: #fff; }
+        #timer { font-weight: bold; color: #ff8a80; }
+
+        /* ── Flash messages ── */
+        .flashes { list-style: none; padding: 0.6rem 1.5rem; background: #fff3cd; color: #856404; }
+
+        /* ── Main ── */
+        main { max-width: 900px; margin: 1.5rem auto; padding: 0 1rem 3rem; }
+
+        /* ── Index page ── */
+        .subject-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        .subject-card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 1.5rem 1rem;
+            text-align: center;
+            text-decoration: none;
+            color: #1a237e;
+            font-weight: 600;
+            font-size: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+            transition: transform 0.15s, box-shadow 0.15s;
+            border: 2px solid transparent;
+        }
+        .subject-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+            border-color: #1a237e;
+        }
+        .subject-card .icon { font-size: 2.2rem; display: block; margin-bottom: 0.4rem; }
+
+        /* ── CBT quiz ── */
+        .cbt-header { margin-bottom: 1rem; }
+        .cbt-header h2 { font-size: 1.3rem; color: #1a237e; }
+        .cbt-header p { font-size: 0.9rem; color: #555; margin-top: 0.3rem; }
+
+        .question-block {
+            background: #fff;
+            border-radius: 8px;
+            padding: 1.1rem 1.3rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+            border-left: 4px solid #1a237e;
+        }
+        .question-text {
+            font-weight: 600;
+            margin-bottom: 0.7rem;
+            line-height: 1.5;
+        }
+        .qnum { color: #1a237e; margin-right: 0.3rem; }
+
+        .options { display: flex; flex-direction: column; gap: 0.45rem; }
+        .option-label {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0.5rem 0.8rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.12s;
+            font-size: 0.95rem;
+        }
+        .option-label:hover { background: #e8eaf6; }
+        .option-label input[type="radio"] { accent-color: #1a237e; width: 16px; height: 16px; }
+
+        .submit-section { text-align: center; margin-top: 2rem; }
+        .submit-btn {
+            background: #1a237e;
+            color: #fff;
+            border: none;
+            padding: 0.8rem 2.5rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .submit-btn:hover { background: #283593; }
+
+        /* ── Result ── */
+        .result-header h2 { font-size: 1.3rem; color: #1a237e; margin-bottom: 0.3rem; }
+
+        .score-card {
+            background: #1a237e;
+            color: #fff;
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            margin: 1.5rem 0;
+            box-shadow: 0 4px 16px rgba(26,35,126,0.25);
+        }
+        .score-main { font-size: 3.5rem; font-weight: 800; line-height: 1; }
+        .score-sep { margin: 0 0.2rem; opacity: 0.6; }
+        .score-pct { font-size: 1.6rem; font-weight: 600; margin-top: 0.5rem; color: #90caf9; }
+        .score-label { margin-top: 0.6rem; font-size: 1.1rem; color: #c5cae9; }
+
+        .review-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.88rem;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        }
+        .review-table th {
+            background: #1a237e;
+            color: #fff;
+            padding: 0.7rem 0.8rem;
+            text-align: left;
+        }
+        .review-table td { padding: 0.6rem 0.8rem; border-bottom: 1px solid #eee; }
+        .row-correct td { background: #e8f5e9; }
+        .row-wrong td { background: #ffebee; }
+        .review-table tr:last-child td { border-bottom: none; }
+
+        .result-actions {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            justify-content: center;
+        }
+        .btn-retry, .btn-home {
+            padding: 0.7rem 1.8rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        .btn-retry { background: #1a237e; color: #fff; }
+        .btn-home { background: #fff; color: #1a237e; border: 2px solid #1a237e; }
+
+        /* ── Login ── */
+        .login-wrap { max-width: 420px; margin: 3rem auto; background: #fff; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
+        .login-wrap h2 { color: #1a237e; margin-bottom: 1rem; }
+        .form-group { margin-bottom: 1rem; }
+        .form-group label { display: block; font-weight: 600; margin-bottom: 0.3rem; font-size: 0.9rem; }
+        .form-group input { width: 100%; padding: 0.6rem 0.8rem; border: 1px solid #ccc; border-radius: 6px; font-size: 0.95rem; }
+        .form-group input:focus { outline: none; border-color: #1a237e; box-shadow: 0 0 0 2px rgba(26,35,126,0.15); }
+        .login-btn { width: 100%; background: #1a237e; color: #fff; border: none; padding: 0.75rem; border-radius: 8px; font-size: 1rem; cursor: pointer; }
+
+        /* ── History / grades ── */
+        .data-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+        .data-table th { background: #1a237e; color: #fff; padding: 0.7rem 0.9rem; text-align: left; }
+        .data-table td { padding: 0.6rem 0.9rem; border-bottom: 1px solid #eee; font-size: 0.9rem; }
+        .data-table tr:last-child td { border-bottom: none; }
+
+        footer { text-align: center; padding: 1.5rem; color: #888; font-size: 0.85rem; }
+    </style>
 </head>
 <body>
     <header>
-                <h1>Student Test & Quiz App</h1>
-                <nav>
-                        {% if session.get('username') %}
-                                <span>Welcome, {{ session.get('username') }}!</span>
-                                <a href="{{ url_for('history') }}">My History</a>
-                                <a href="{{ url_for('logout') }}">Logout</a>
-                        {% else %}
-                                <a href="{{ url_for('login') }}">Login</a>
-                        {% endif %}
-                        <span id="timer" style="margin-left:20px;color:crimson"></span>
-                </nav>
-    </header>
-        {% with messages = get_flashed_messages() %}
-            {% if messages %}
-                <ul class="flashes">
-                    {% for m in messages %}
-                        <li>{{ m }}</li>
-                    {% endfor %}
-                </ul>
+        <h1>🎓 CBT Quiz App</h1>
+        <nav>
+            {% if session.get('username') %}
+                <span>{{ session.get('username') }}</span>
+                <a href="{{ url_for('history') }}">My History</a>
+                <a href="{{ url_for('logout') }}">Logout</a>
+            {% else %}
+                <a href="{{ url_for('login') }}">Login</a>
             {% endif %}
-        {% endwith %}
+            <span id="timer"></span>
+        </nav>
+    </header>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for m in messages %}<li>{{ m }}</li>{% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
     <main>
         {% block content %}{% endblock %}
     </main>
-    <footer>
-        <p>&copy; 2026 Student Quiz App</p>
-    </footer>
-        <script>
-        // Global countdown script. Pages should define window.EXPIRES_AT as an ISO timestamp when relevant.
-        function startCountdown(expiresAt) {
-            if (!expiresAt) return;
-            function update() {
-                var now = new Date();
-                var exp = new Date(expiresAt);
-                var diff = exp - now;
-                var el = document.getElementById('timer');
-                if (!el) return;
-                if (diff <= 0) {
-                    el.textContent = 'Time expired';
-                } else {
-                    var mins = Math.floor(diff / 60000);
-                    var secs = Math.floor((diff % 60000) / 1000);
-                    el.textContent = 'Time left: ' + mins + 'm ' + (secs<10?('0'+secs):secs) + 's';
-                }
-            }
-            update();
-            setInterval(update, 1000);
+
+    <footer><p>&copy; 2026 CBT Quiz App</p></footer>
+
+    <script>
+    function startCountdown(expiresAtMs) {
+        var el = document.getElementById('timer');
+        function tick() {
+            var diff = expiresAtMs - Date.now();
+            if (!el) return;
+            if (diff <= 0) { el.textContent = '⏰ Time Up!'; return; }
+            var m = Math.floor(diff / 60000);
+            var s = Math.floor((diff % 60000) / 1000);
+            el.textContent = '⏱ ' + m + 'm ' + (s < 10 ? '0' : '') + s + 's';
         }
-        if (window.EXPIRES_AT) startCountdown(window.EXPIRES_AT);
-        </script>
+        tick();
+        setInterval(tick, 1000);
+    }
+    if (window.EXPIRES_AT) startCountdown(window.EXPIRES_AT);
+    </script>
 </body>
 </html>

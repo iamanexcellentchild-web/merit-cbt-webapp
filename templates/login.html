@@ -1,11 +1,14 @@
 {% extends "base.html" %}
-
 {% block content %}
-<h2>Login</h2>
-<form method="post">
-    <label for="name">Your name:</label>
-    <input type="text" id="name" name="name">
-    <button type="submit">Log in</button>
-</form>
-<p><a href="{{ url_for('index') }}">Back</a></p>
+<div class="login-wrap">
+    <h2>🎓 Student Login</h2>
+    <p style="color:#555; font-size:0.9rem; margin-bottom:1.2rem">Enter your name to start the CBT. You will have 30 minutes and up to 60 questions per subject.</p>
+    <form method="post">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. John Doe" required autofocus>
+        </div>
+        <button type="submit" class="login-btn">Start CBT</button>
+    </form>
+</div>
 {% endblock %}

@@ -1,33 +1,56 @@
 {% extends "base.html" %}
-
 {% block content %}
-<h2>{{ subject.title() }} Quiz Result</h2>
-{% if name %}
-    <p>Student: {{ name }}</p>
-{% endif %}
-<p>Your score: {{ score }} / {{ total }}{% if percentage is defined %} ({{ percentage }}%){% endif %}</p>
+
+<div class="result-header">
+    <h2>{{ subject.title() }} — CBT Result</h2>
+    {% if name %}<p>Candidate: <strong>{{ name }}</strong></p>{% endif %}
+</div>
+
+<div class="score-card">
+    <div class="score-main">
+        <span class="score-num">{{ score }}</span>
+        <span class="score-sep">/</span>
+        <span class="score-total">{{ total }}</span>
+    </div>
+    {% if percentage is defined %}
+    <div class="score-pct">{{ percentage }}%</div>
+    {% endif %}
+    <div class="score-label">
+        {% if percentage >= 70 %}🎉 Well done!
+        {% elif percentage >= 50 %}👍 Pass
+        {% else %}📚 Keep practising
+        {% endif %}
+    </div>
+</div>
+
 {% if details %}
-    <h3>Review your answers</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>Question</th>
-                <th>Your answer</th>
-                <th>Correct answer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for item in details %}
-            <tr class="{{ 'correct' if item.correct else 'incorrect' }}">
-                <td>{{ loop.index }}</td>
-                <td>{{ item.question }}</td>
-                <td>{{ item.selected or '(no answer)' }}</td>
-                <td>{{ item.answer }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+<h3 style="margin-top:2rem">Answer Review</h3>
+<table class="review-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Question</th>
+            <th>Your Answer</th>
+            <th>Correct Answer</th>
+            <th>Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in details %}
+        <tr class="{{ 'row-correct' if item.correct else 'row-wrong' }}">
+            <td>{{ loop.index }}</td>
+            <td>{{ item.question | safe }}</td>
+            <td>{{ item.selected or '(no answer)' | safe }}</td>
+            <td>{{ item.answer | safe }}</td>
+            <td>{{ '✓' if item.correct else '✗' }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
 {% endif %}
-<p><a href="{{ url_for('quiz', subject=subject) }}">Try again</a> | <a href="{{ url_for('index') }}">Choose another subject</a></p>
+
+<div class="result-actions">
+    <a href="{{ url_for('quiz', subject=subject) }}" class="btn-retry">Try Again</a>
+    <a href="{{ url_for('index') }}" class="btn-home">Choose Subject</a>
+</div>
 {% endblock %}
