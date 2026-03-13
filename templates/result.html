@@ -24,29 +24,32 @@
 </div>
 
 {% if details %}
-<h3 style="margin-top:2rem">Answer Review</h3>
-<table class="review-table">
-    <thead>
-        <tr>
-            <th>#</th>
-            <th>Question</th>
-            <th>Your Answer</th>
-            <th>Correct Answer</th>
-            <th>Result</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for item in details %}
-        <tr class="{{ 'row-correct' if item.correct else 'row-wrong' }}">
-            <td>{{ loop.index }}</td>
-            <td>{{ item.question | safe }}</td>
-            <td>{{ item.selected or '(no answer)' | safe }}</td>
-            <td>{{ item.answer | safe }}</td>
-            <td>{{ '✓' if item.correct else '✗' }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+<h3 style="margin-top:2rem; margin-bottom:1rem;">Answer Review</h3>
+
+{% for item in details %}
+<div class="detail-card {{ 'row-correct' if item.correct else 'row-wrong' }}">
+    <div class="detail-header">
+        {{ '✅' if item.correct else '❌' }}
+        <span>Q{{ loop.index }}. {{ item.question | safe }}</span>
+    </div>
+    <div class="detail-body">
+        <div class="label">Your Answer</div>
+        <div class="value">{{ item.selected or '(no answer)' | safe }}</div>
+
+        {% if not item.correct %}
+        <div class="label">Correct Answer</div>
+        <div class="value">{{ item.answer | safe }}</div>
+        {% endif %}
+
+        {% if item.get('explanation') %}
+        <div class="explanation">
+            <div class="expl-label">💡 Solution</div>
+            {{ item.explanation | safe }}
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
 {% endif %}
 
 <div class="result-actions">

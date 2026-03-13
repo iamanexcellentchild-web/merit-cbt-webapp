@@ -42,7 +42,6 @@
         header nav { display: flex; align-items: center; gap: 1rem; font-size: 0.9rem; }
         header nav a { color: #90caf9; text-decoration: none; }
         header nav a:hover { color: #fff; }
-        #timer { font-weight: bold; color: #ff8a80; }
 
         /* ── Flash messages ── */
         .flashes { list-style: none; padding: 0.6rem 1.5rem; background: #fff3cd; color: #856404; }
@@ -192,6 +191,132 @@
         .data-table td { padding: 0.6rem 0.9rem; border-bottom: 1px solid #eee; font-size: 0.9rem; }
         .data-table tr:last-child td { border-bottom: none; }
 
+        /* ── Detail cards (result review) ── */
+        .detail-card {
+            background: #fff;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .detail-card .detail-header {
+            padding: 0.7rem 1rem;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .detail-card.row-correct .detail-header { background: #e8f5e9; color: #2e7d32; border-left: 4px solid #43a047; }
+        .detail-card.row-wrong   .detail-header { background: #ffebee; color: #c62828; border-left: 4px solid #e53935; }
+        .detail-card .detail-body { padding: 0.7rem 1rem; font-size: 0.88rem; line-height: 1.6; }
+        .detail-card .detail-body .label { font-weight: 600; color: #555; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.4px; margin-top: 0.4rem; }
+        .detail-card .detail-body .value { margin-bottom: 0.3rem; }
+
+        /* ── Explanation box ── */
+        .explanation {
+            margin-top: 0.6rem;
+            padding: 0.6rem 0.9rem;
+            background: #fffde7;
+            border-left: 3px solid #f9a825;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.87rem;
+            line-height: 1.6;
+            color: #444;
+        }
+        .explanation .expl-label {
+            font-weight: 700;
+            color: #f57f17;
+            margin-bottom: 0.2rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+
+        /* ── Floating Clock Timer ── */
+        #clock-timer {
+            display: none;
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            z-index: 1000;
+            background: #1a237e;
+            border-radius: 16px;
+            padding: 0.9rem 1.3rem 0.8rem;
+            box-shadow: 0 8px 32px rgba(26,35,126,0.35);
+            text-align: center;
+            min-width: 130px;
+            border: 2px solid rgba(144,202,249,0.3);
+            user-select: none;
+        }
+        #clock-timer.warning  { background: #e65100; border-color: rgba(255,183,77,0.4); }
+        #clock-timer.critical { background: #b71c1c; border-color: rgba(255,82,82,0.5); animation: pulse 0.8s infinite; }
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 8px 32px rgba(183,28,28,0.4); }
+            50%       { box-shadow: 0 8px 32px rgba(183,28,28,0.85); }
+        }
+        #clock-label {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: #90caf9;
+            margin-bottom: 0.35rem;
+        }
+        #clock-timer.warning  #clock-label { color: #ffcc80; }
+        #clock-timer.critical #clock-label { color: #ff8a80; }
+        #clock-face {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+        }
+        .clock-seg {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .clock-digits {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #fff;
+            font-variant-numeric: tabular-nums;
+            letter-spacing: 1px;
+            line-height: 1;
+        }
+        .clock-unit {
+            font-size: 0.55rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.55);
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-top: 1px;
+        }
+        .clock-colon {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: rgba(255,255,255,0.6);
+            line-height: 1;
+            margin-bottom: 10px;
+            animation: blink 1s step-start infinite;
+        }
+        @keyframes blink { 50% { opacity: 0.2; } }
+        #clock-bar-wrap {
+            margin-top: 0.6rem;
+            height: 4px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        #clock-bar {
+            height: 100%;
+            background: #90caf9;
+            border-radius: 2px;
+            transition: width 1s linear, background 1s;
+        }
+        #clock-timer.warning  #clock-bar { background: #ffb74d; }
+        #clock-timer.critical #clock-bar { background: #ef5350; }
+
         footer { text-align: center; padding: 1.5rem; color: #888; font-size: 0.85rem; }
     </style>
 </head>
@@ -206,7 +331,6 @@
             {% else %}
                 <a href="{{ url_for('login') }}">Login</a>
             {% endif %}
-            <span id="timer"></span>
         </nav>
     </header>
 
@@ -222,22 +346,72 @@
         {% block content %}{% endblock %}
     </main>
 
+    <!-- Floating clock timer (only shown during quiz) -->
+    <div id="clock-timer">
+        <div id="clock-label">⏱ Time Left</div>
+        <div id="clock-face">
+            <div class="clock-seg">
+                <span class="clock-digits" id="ct-min">00</span>
+                <span class="clock-unit">min</span>
+            </div>
+            <div class="clock-colon">:</div>
+            <div class="clock-seg">
+                <span class="clock-digits" id="ct-sec">00</span>
+                <span class="clock-unit">sec</span>
+            </div>
+        </div>
+        <div id="clock-bar-wrap"><div id="clock-bar" style="width:100%"></div></div>
+    </div>
+
     <footer><p>&copy; 2026 CBT Quiz App</p></footer>
 
     <script>
     function startCountdown(expiresAtMs) {
-        var el = document.getElementById('timer');
+        var clock   = document.getElementById('clock-timer');
+        var minEl   = document.getElementById('ct-min');
+        var secEl   = document.getElementById('ct-sec');
+        var bar     = document.getElementById('clock-bar');
+        var total   = expiresAtMs - Date.now();
+        if (total <= 0 || !clock) return;
+
+        clock.style.display = 'block';
+
+        function pad(n) { return n < 10 ? '0' + n : '' + n; }
+
         function tick() {
             var diff = expiresAtMs - Date.now();
-            if (!el) return;
-            if (diff <= 0) { el.textContent = '⏰ Time Up!'; return; }
+            if (diff <= 0) {
+                minEl.textContent = '00';
+                secEl.textContent = '00';
+                bar.style.width   = '0%';
+                clock.className   = 'critical';
+                document.getElementById('clock-label').textContent = '⏰ Time Up!';
+                // auto-submit quiz form if present
+                var form = document.getElementById('quizForm');
+                if (form) form.submit();
+                return;
+            }
+
             var m = Math.floor(diff / 60000);
             var s = Math.floor((diff % 60000) / 1000);
-            el.textContent = '⏱ ' + m + 'm ' + (s < 10 ? '0' : '') + s + 's';
+            minEl.textContent = pad(m);
+            secEl.textContent = pad(s);
+            bar.style.width   = Math.max(0, (diff / total) * 100) + '%';
+
+            // colour state
+            if (diff < 60000) {           // < 1 min → critical
+                clock.className = 'critical';
+            } else if (diff < 300000) {   // < 5 min → warning
+                clock.className = 'warning';
+            } else {
+                clock.className = '';
+            }
         }
+
         tick();
         setInterval(tick, 1000);
     }
+
     if (window.EXPIRES_AT) startCountdown(window.EXPIRES_AT);
     </script>
 </body>

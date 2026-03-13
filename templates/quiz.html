@@ -15,14 +15,27 @@
     {% for q in questions %}
     {% set qidx = loop.index0 %}
     <div class="question-block" id="q{{ qidx }}">
-        <p class="question-text"><span class="qnum">{{ loop.index }}.</span> {{ q.q | safe }}</p>
+        <p class="question-text">
+            <span class="qnum">{{ loop.index }}.</span>
+            {{ (q.get('q') or q.get('question', '')) | safe }}
+        </p>
         <div class="options">
-            {% for opt in q.options %}
-            <label class="option-label">
-                <input type="radio" name="q{{ qidx }}" value="{{ opt }}">
-                <span>{{ opt | safe }}</span>
-            </label>
-            {% endfor %}
+            {# Handle both dict options {"a": "text"} and list options ["a. text"] #}
+            {% if q.get('options') is mapping %}
+                {% for key, val in q.options.items() %}
+                <label class="option-label">
+                    <input type="radio" name="q{{ qidx }}" value="{{ key }}">
+                    <span><strong>{{ key }}.</strong> {{ val | safe }}</span>
+                </label>
+                {% endfor %}
+            {% else %}
+                {% for opt in q.get('options', []) %}
+                <label class="option-label">
+                    <input type="radio" name="q{{ qidx }}" value="{{ opt }}">
+                    <span>{{ opt | safe }}</span>
+                </label>
+                {% endfor %}
+            {% endif %}
         </div>
     </div>
     {% endfor %}
