@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Test & Quiz App
 
 A simple web application built with Flask that allows students to take quizzes in physics, chemistry, and maths. Users can select a subject, answer multiple-choice questions, and view their scores.
@@ -43,3 +44,6 @@ A simple web application built with Flask that allows students to take quizzes i
 ---
 
 Made for GET 103 student test and quiz purposes.
+=======
+My project zip file
+>>>>>>> 842aa6be0ff0fea6185ce5348255992092dda77e
